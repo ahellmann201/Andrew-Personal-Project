@@ -1,0 +1,15 @@
+-------------------------
+Boxes
+
+
+
+left_box = tk.Frame(window,bg="red",width=200,height=400)
+middle_box=tk.Frame(window,bg="green",width=400,height=400)
+right_box=tk.Frame(window,bg="blue",width=200,height=400)
+
+
+left_box.pack(side="left",fill="both")
+middle_box.pack(side="left",fill="both")
+right_box.pack(side="left",fill="both")
+
+--------------------------------------------------------------

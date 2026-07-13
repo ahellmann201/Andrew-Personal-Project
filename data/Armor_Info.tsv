@@ -1,0 +1,647 @@
+ID	Set_name	Name	Armor_type	set_variant	rank	rarity	slot_1	slot_2	slot_3	defense	fire_res	water_res	thunder_res	ice_res	dragon_res	skill_1	skill_1_level	skill_2	skill_2_level	skill_3	skill_3_level	group_skill	set_bonus_skill
+1	Alloy	Alloy Vambraces	Arms		Low Rank	1	NA	NA	NA	6	-2	1	-2	-2	1	Tremor Resistance	1	NA	NA	NA	NA	NA	NA
+2	Alloy	Alloy Coil	Waist		Low Rank	1	NA	NA	NA	6	-2	1	-2	-2	1	Tremor Resistance	1	NA	NA	NA	NA	NA	NA
+3	Alloy	Alloy Greaves	Legs		Low Rank	1	NA	NA	NA	6	-2	1	-2	-2	1	Quick Sheathe	1	NA	NA	NA	NA	NA	NA
+4	Alloy	Alloy Helm	Helm	NA	Low Rank	1	NA	NA	NA	6	-2	1	-2	-2	1	Quick Sheathe	1	NA	NA	NA	NA	NA	NA
+5	Alloy	Alloy Mail	Chest	NA	Low Rank	1	NA	NA	NA	6	-2	1	-2	-2	1	Tremor Resistance	1	NA	NA	NA	NA	NA	NA
+6	Barina	Barina Vambraces	Arms		Low Rank	1	NA	NA	NA	8	-3	3	0	0	3	Recovery Up	1	NA	NA	NA	NA	Neopteron Alert	NA
+7	Barina	Barina Coil	Waist		Low Rank	1	NA	NA	NA	8	-3	3	0	0	3	Recovery Up	1	NA	NA	NA	NA	Neopteron Alert	NA
+8	Barina	Barina Greaves	Legs		Low Rank	1	NA	NA	NA	8	-3	3	0	0	3	Recovery Up	1	NA	NA	NA	NA	Neopteron Alert	NA
+9	Barina	Barina Headgear	Helm	NA	Low Rank	1	NA	NA	NA	8	-3	3	0	0	3	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Alert	NA
+10	Barina	Barina Mail	Chest	NA	Low Rank	1	NA	NA	NA	8	-3	3	0	0	3	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Alert	NA
+11	Bone	Bone Vambraces	Arms		Low Rank	1	NA	NA	NA	4	2	0	2	0	2	Stun Resistance	1	NA	NA	NA	NA	NA	NA
+12	Bone	Bone Coil	Waist		Low Rank	1	NA	NA	NA	4	2	0	2	0	2	Marathon Runner	1	NA	NA	NA	NA	NA	NA
+13	Bone	Bone Greaves	Legs		Low Rank	1	NA	NA	NA	4	2	0	2	0	2	Stun Resistance	1	NA	NA	NA	NA	NA	NA
+14	Bone	Bone Helm	Helm	NA	Low Rank	1	NA	NA	NA	4	2	0	2	0	2	Marathon Runner	1	NA	NA	NA	NA	NA	NA
+15	Bone	Bone Mail	Chest	NA	Low Rank	1	NA	NA	NA	4	2	0	2	0	2	Marathon Runner	1	NA	NA	NA	NA	NA	NA
+16	Bulaqchi	Bulaqchi Specs	Helm	NA	Low Rank	1	NA	NA	NA	4	-4	1	1	-2	4	Entomologist	1	NA	NA	NA	NA	Neopteron Alert	NA
+17	Chainmail	Chainmail Gloves	Arms		Low Rank	1	NA	NA	NA	2	0	2	0	0	0	Geologist	1	NA	NA	NA	NA	NA	NA
+18	Chainmail	Chainmail Belt	Waist		Low Rank	1	NA	NA	NA	2	0	2	0	0	0	Recovery Speed	1	NA	NA	NA	NA	NA	NA
+19	Chainmail	Chainmail Pants	Legs		Low Rank	1	NA	NA	NA	2	0	2	0	0	0	Recovery Speed	1	NA	NA	NA	NA	NA	NA
+20	Chainmail	Chainmail Headgear	Helm	NA	Low Rank	1	NA	NA	NA	2	0	2	0	0	0	Geologist	1	NA	NA	NA	NA	NA	NA
+21	Chainmail	Chainmail Vest	Chest	NA	Low Rank	1	NA	NA	NA	2	0	2	0	0	0	Geologist	1	NA	NA	NA	NA	NA	NA
+22	Chatacabra	Chatacabra Vambraces	Arms		Low Rank	1	NA	NA	NA	6	1	2	-3	-1	1	Item Prolonger	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+23	Chatacabra	Chatacabra Coil	Waist		Low Rank	1	NA	NA	NA	6	1	2	-3	-1	1	Speed Eating	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+24	Chatacabra	Chatacabra Greaves	Legs		Low Rank	1	NA	NA	NA	6	1	2	-3	-1	1	Item Prolonger	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+25	Chatacabra	Chatacabra Helm	Helm	NA	Low Rank	1	NA	NA	NA	6	1	2	-3	-1	1	Speed Eating	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+26	Chatacabra	Chatacabra Mail	Chest	NA	Low Rank	1	NA	NA	NA	6	1	2	-3	-1	1	Speed Eating	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+27	Gajau	Gajau Boots	Legs		Low Rank	1	NA	NA	NA	4	0	5	0	0	0	Water Resistance	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+28	Hope	Hope Vambraces	Arms		Low Rank	1	NA	NA	NA	2	1	0	1	0	0	Divine Blessing	1	NA	NA	NA	NA	NA	NA
+29	Hope	Hope Coil	Waist		Low Rank	1	NA	NA	NA	2	1	0	1	0	0	Stun Resistance	1	NA	NA	NA	NA	NA	NA
+30	Hope	Hope Greaves	Legs		Low Rank	1	NA	NA	NA	2	1	0	1	0	0	Divine Blessing	1	NA	NA	NA	NA	NA	NA
+31	Hope	Hope Mask	Helm	NA	Low Rank	1	NA	NA	NA	2	1	0	1	0	0	Stun Resistance	1	NA	NA	NA	NA	NA	NA
+32	Hope	Hope Mail	Chest	NA	Low Rank	1	NA	NA	NA	2	1	0	1	0	0	Divine Blessing	1	NA	NA	NA	NA	NA	NA
+33	Leather	Leather Gloves	Arms		Low Rank	1	NA	NA	NA	2	2	0	0	0	0	Hunger Resistance	1	NA	NA	NA	NA	NA	NA
+34	Leather	Leather Belt	Waist		Low Rank	1	NA	NA	NA	2	2	0	0	0	0	Botanist	1	NA	NA	NA	NA	NA	NA
+35	Leather	Leather Pants	Legs		Low Rank	1	NA	NA	NA	2	2	0	0	0	0	Botanist	1	NA	NA	NA	NA	NA	NA
+36	Leather	Leather Headgear	Helm	NA	Low Rank	1	NA	NA	NA	2	2	0	0	0	0	Botanist	1	NA	NA	NA	NA	NA	NA
+37	Leather	Leather Vest	Chest	NA	Low Rank	1	NA	NA	NA	2	2	0	0	0	0	Botanist	1	NA	NA	NA	NA	NA	NA
+38	Piragill	Piragill Greaves	Legs		Low Rank	1	NA	NA	NA	4	-3	4	-3	1	1	Water Resistance	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+39	Quematrice	Quematrice Braces	Arms		Low Rank	1	NA	NA	NA	6	2	-3	0	-1	0	Flinch Free	1	NA	NA	NA	NA	Scaling Prowess	NA
+40	Quematrice	Quematrice Coil	Waist		Low Rank	1	NA	NA	NA	6	2	-3	0	-1	0	Fire Resistance	1	NA	NA	NA	NA	Scaling Prowess	NA
+41	Quematrice	Quematrice Greaves	Legs		Low Rank	1	NA	NA	NA	6	2	-3	0	-1	0	Flinch Free	1	NA	NA	NA	NA	Scaling Prowess	NA
+42	Quematrice	Quematrice Helm	Helm	NA	Low Rank	1	NA	NA	NA	6	2	-3	0	-1	0	Flinch Free	1	NA	NA	NA	NA	Scaling Prowess	NA
+43	Quematrice	Quematrice Mail	Chest	NA	Low Rank	1	NA	NA	NA	6	2	-3	0	-1	0	Fire Resistance	1	NA	NA	NA	NA	Scaling Prowess	NA
+44	Talioth	Talioth Vambraces	Arms		Low Rank	1	NA	NA	NA	4	4	-2	-2	-2	2	Leap of Faith	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+45	Vespoid	Vespoid Vambraces	Arms		Low Rank	1	NA	NA	NA	4	-2	1	1	1	2	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Alert	NA
+46	Vespoid	Vespoid Coil	Waist		Low Rank	1	NA	NA	NA	4	-2	1	1	1	2	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Alert	NA
+47	Vespoid	Vespoid Greaves	Legs		Low Rank	1	NA	NA	NA	4	-2	1	1	1	2	Survival Expert	1	NA	NA	NA	NA	Neopteron Alert	NA
+48	Vespoid	Vespoid Helm	Helm	NA	Low Rank	1	NA	NA	NA	4	-2	1	1	1	2	Survival Expert	1	NA	NA	NA	NA	Neopteron Alert	NA
+49	Vespoid	Vespoid Mail	Chest	NA	Low Rank	1	NA	NA	NA	4	-2	1	1	1	2	Survival Expert	1	NA	NA	NA	NA	Neopteron Alert	NA
+50	Balahara	Balahara Vambraces	Arms		Low Rank	2	NA	NA	NA	12	-1	2	-3	1	1	Evade Extender	1	NA	NA	NA	NA	Scaling Prowess	NA
+51	Balahara	Balahara Coil	Waist		Low Rank	2	NA	NA	NA	12	-1	2	-3	1	1	Evade Extender	1	NA	NA	NA	NA	Scaling Prowess	NA
+52	Balahara	Balahara Greaves	Legs		Low Rank	2	NA	NA	NA	12	-1	2	-3	1	1	Evade Extender	1	NA	NA	NA	NA	Scaling Prowess	NA
+53	Balahara	Balahara Helm	Helm	NA	Low Rank	2	NA	NA	NA	12	-1	2	-3	1	1	Hunger Resistance	1	NA	NA	NA	NA	Scaling Prowess	NA
+54	Balahara	Balahara Mail	Chest	NA	Low Rank	2	NA	NA	NA	12	-1	2	-3	1	1	Quick Sheathe	1	NA	NA	NA	NA	Scaling Prowess	NA
+55	Conga	Conga Vambraces	Arms		Low Rank	2	NA	NA	NA	8	-3	1	1	-1	2	Stench Resistance	1	NA	NA	NA	NA	Fortifying Pelt	NA
+56	Conga	Conga Coil	Waist		Low Rank	2	NA	NA	NA	8	-3	1	1	-1	2	Stench Resistance	1	NA	NA	NA	NA	Fortifying Pelt	NA
+57	Conga	Conga Greaves	Legs		Low Rank	2	NA	NA	NA	8	-3	1	1	-1	2	Mushroomancer	1	NA	NA	NA	NA	Fortifying Pelt	NA
+58	Conga	Conga Helm	Helm	NA	Low Rank	2	NA	NA	NA	8	-3	1	1	-1	2	Mushroomancer	1	NA	NA	NA	NA	Fortifying Pelt	NA
+59	Conga	Conga Mail	Chest	NA	Low Rank	2	NA	NA	NA	8	-3	1	1	-1	2	Mushroomancer	1	NA	NA	NA	NA	Fortifying Pelt	NA
+60	Doshaguma	Doshaguma Braces	Arms		Low Rank	2	NA	NA	NA	16	-3	2	-1	-1	4	Recovery Speed	1	NA	NA	NA	NA	Fortifying Pelt	Doshaguma's Might
+61	Doshaguma	Doshaguma Coil	Waist		Low Rank	2	NA	NA	NA	16	-3	2	-1	-1	4	Item Prolonger	1	NA	NA	NA	NA	Fortifying Pelt	Doshaguma's Might
+62	Doshaguma	Doshaguma Greaves	Legs		Low Rank	2	NA	NA	NA	16	-3	2	-1	-1	4	Free Meal	1	NA	NA	NA	NA	Fortifying Pelt	Doshaguma's Might
+63	Doshaguma	Doshaguma Helm	Helm	NA	Low Rank	2	NA	NA	NA	16	-3	2	-1	-1	4	Free Meal	1	NA	NA	NA	NA	Fortifying Pelt	Doshaguma's Might
+64	Doshaguma	Doshaguma Mail	Chest	NA	Low Rank	2	NA	NA	NA	16	-3	2	-1	-1	4	Free Meal	1	NA	NA	NA	NA	Fortifying Pelt	Doshaguma's Might
+65	Ajarakan	Ajarakan Vambraces	Arms		Low Rank	3	NA	NA	NA	24	3	-3	1	-2	0	Bombardier	1	Cliffhanger	1	NA	NA	Fortifying Pelt	NA
+66	Ajarakan	Ajarakan Coil	Waist		Low Rank	3	NA	NA	NA	24	3	-3	1	-2	0	Blast Resistance	1	Bombardier	1	NA	NA	Fortifying Pelt	NA
+67	Ajarakan	Ajarakan Greaves	Legs		Low Rank	3	NA	NA	NA	24	3	-3	1	-2	0	Blast Resistance	1	Partbreaker	1	NA	NA	Fortifying Pelt	NA
+68	Ajarakan	Ajarakan Helm	Helm	NA	Low Rank	3	NA	NA	NA	24	3	-3	1	-2	0	Partbreaker	1	Bombardier	1	NA	NA	Fortifying Pelt	NA
+69	Ajarakan	Ajarakan Mail	Chest	NA	Low Rank	3	NA	NA	NA	24	3	-3	1	-2	0	Partbreaker	1	NA	NA	NA	NA	Fortifying Pelt	NA
+70	Comaqchi	Comaqchi Accessory	Helm	NA	Low Rank	3	NA	NA	NA	16	-5	0	0	3	3	Sleep Resistance	1	NA	NA	NA	NA	Neopteron Alert	NA
+71	Hirabami	Hirabami Vambraces	Arms		Low Rank	3	NA	NA	NA	22	-3	2	-2	3	0	Evade Window	1	Ice Resistance	1	NA	NA	Scaling Prowess	NA
+72	Hirabami	Hirabami Coil	Waist		Low Rank	3	NA	NA	NA	22	-3	2	-2	3	0	Evade Window	1	Ice Resistance	1	NA	NA	Scaling Prowess	NA
+73	Hirabami	Hirabami Greaves	Legs		Low Rank	3	NA	NA	NA	22	-3	2	-2	3	0	Evade Window	1	Ice Resistance	1	NA	NA	Scaling Prowess	NA
+74	Hirabami	Hirabami Headdress	Helm	NA	Low Rank	3	NA	NA	NA	22	-3	2	-2	3	0	Evade Window	1	Recovery Speed	1	NA	NA	Scaling Prowess	NA
+75	Hirabami	Hirabami Mail	Chest	NA	Low Rank	3	NA	NA	NA	22	-3	2	-2	3	0	Evade Window	1	Recovery Speed	1	NA	NA	Scaling Prowess	NA
+76	Ingot	Ingot Vambraces	Arms		Low Rank	3	NA	NA	NA	16	-2	0	3	-1	0	Stun Resistance	1	NA	NA	NA	NA	NA	NA
+77	Ingot	Ingot Coil	Waist		Low Rank	3	NA	NA	NA	16	-2	0	3	-1	0	Divine Blessing	1	NA	NA	NA	NA	NA	NA
+78	Ingot	Ingot Greaves	Legs		Low Rank	3	NA	NA	NA	16	-2	0	3	-1	0	Windproof	1	NA	NA	NA	NA	NA	NA
+79	Ingot	Ingot Helm	Helm	NA	Low Rank	3	NA	NA	NA	16	-2	0	3	-1	0	Divine Blessing	1	NA	NA	NA	NA	NA	NA
+80	Ingot	Ingot Mail	Chest	NA	Low Rank	3	NA	NA	NA	16	-2	0	3	-1	0	Windproof	1	NA	NA	NA	NA	NA	NA
+81	Kranodath	Kranodath Mail	Chest	NA	Low Rank	3	NA	NA	NA	16	4	-2	0	-2	0	Flinch Free	2	NA	NA	NA	NA	Scaling Prowess	NA
+82	Nerscylla	Nerscylla Vambraces	Arms		Low Rank	3	NA	NA	NA	20	-2	2	-2	1	2	Ambush	1	NA	NA	NA	NA	Neopteron Alert	NA
+83	Nerscylla	Nerscylla Coil	Waist		Low Rank	3	NA	NA	NA	20	-2	2	-2	1	2	Sleep Resistance	1	Bind Resistance	1	NA	NA	Neopteron Alert	NA
+84	Nerscylla	Nerscylla Greaves	Legs		Low Rank	3	NA	NA	NA	20	-2	2	-2	1	2	Ambush	1	NA	NA	NA	NA	Neopteron Alert	NA
+85	Nerscylla	Nerscylla Helm	Helm	NA	Low Rank	3	NA	NA	NA	20	-2	2	-2	1	2	Ambush	1	NA	NA	NA	NA	Neopteron Alert	NA
+86	Nerscylla	Nerscylla Mail	Chest	NA	Low Rank	3	NA	NA	NA	20	-2	2	-2	1	2	Poison Resistance	1	Bind Resistance	1	NA	NA	Neopteron Alert	NA
+87	Rompopolo	Rompopolo Vambraces	Arms		Low Rank	3	NA	NA	NA	18	0	-3	0	0	1	Wide-Range	1	Poison Resistance	1	NA	NA	Flexible Leathercraft	NA
+88	Rompopolo	Rompopolo Coil	Waist		Low Rank	3	NA	NA	NA	18	0	-3	0	0	1	Wide-Range	1	Poison Resistance	1	NA	NA	Flexible Leathercraft	NA
+89	Rompopolo	Rompopolo Greaves	Legs		Low Rank	3	NA	NA	NA	18	0	-3	0	0	1	Wide-Range	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+90	Rompopolo	Rompopolo Helm	Helm	NA	Low Rank	3	NA	NA	NA	18	0	-3	0	0	1	Wide-Range	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+91	Rompopolo	Rompopolo Mail	Chest	NA	Low Rank	3	NA	NA	NA	18	0	-3	0	0	1	Wide-Range	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+92	Duna	Duna Vambraces	Arms		Low Rank	4	1	NA	NA	26	-1	4	-3	0	0	Tool Specialist	1	NA	NA	NA	NA	Lord's Favor	Uth Duna's Cover
+93	Duna	Duna Coil	Waist		Low Rank	4	NA	NA	NA	26	-1	4	-3	0	0	Tool Specialist	1	Aquatic-Oilsilt Mobility	1	NA	NA	Lord's Favor	Uth Duna's Cover
+94	Duna	Duna Greaves	Legs		Low Rank	4	NA	NA	NA	26	-1	4	-3	0	0	Peak Performance	1	NA	NA	NA	NA	Lord's Favor	Uth Duna's Cover
+95	Duna	Duna Helm	Helm	NA	Low Rank	4	NA	NA	NA	26	-1	4	-3	0	0	Peak Performance	1	Tool Specialist	1	NA	NA	Lord's Favor	Uth Duna's Cover
+96	Duna	Duna Mail	Chest	NA	Low Rank	4	1	NA	NA	26	-1	4	-3	0	0	Peak Performance	1	NA	NA	NA	NA	Lord's Favor	Uth Duna's Cover
+97	G Arkveld	G Arkveld Vambraces	Arms		Low Rank	4	1	NA	NA	30	2	0	-1	0	-4	Flayer	1	NA	NA	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+98	G Arkveld	G Arkveld Coil	Waist		Low Rank	4	1	1	NA	30	2	0	-1	0	-4	Blight Resistance	1	NA	NA	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+99	G Arkveld	G Arkveld Greaves	Legs		Low Rank	4	1	NA	NA	30	2	0	-1	0	-4	Blight Resistance	1	NA	NA	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+100	G Arkveld	G Arkveld Helm	Helm	NA	Low Rank	4	1	NA	NA	30	2	0	-1	0	-4	Flayer	1	NA	NA	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+101	G Arkveld	G Arkveld Mail	Chest	NA	Low Rank	4	NA	NA	NA	30	2	0	-1	0	-4	Flayer	1	Blight Resistance	1	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+102	G Doshaguma	G Doshaguma Braces	Arms		Low Rank	4	1	NA	NA	26	-3	2	-1	-2	2	Marathon Runner	1	NA	NA	NA	NA	Guardian's Pulse	Doshaguma's Might
+103	G Doshaguma	G Doshaguma Coil	Waist		Low Rank	4	NA	NA	NA	26	-3	2	-1	-2	2	Heroics	1	Marathon Runner	1	NA	NA	Guardian's Pulse	Doshaguma's Might
+104	G Doshaguma	G Doshaguma Greaves	Legs		Low Rank	4	NA	NA	NA	26	-3	2	-1	-2	2	Iron Skin	1	Marathon Runner	1	NA	NA	Guardian's Pulse	Doshaguma's Might
+105	G Doshaguma	G Doshaguma Helm	Helm	NA	Low Rank	4	1	NA	NA	26	-3	2	-1	-2	2	Heroics	1	NA	NA	NA	NA	Guardian's Pulse	Doshaguma's Might
+106	G Doshaguma	G Doshaguma Mail	Chest	NA	Low Rank	4	NA	NA	NA	26	-3	2	-1	-2	2	Heroics	1	Iron Skin	1	NA	NA	Guardian's Pulse	Doshaguma's Might
+107	G Ebony	G Ebony Braces	Arms		Low Rank	4	1	NA	NA	26	-2	-3	-2	-2	4	Burst	1	NA	NA	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+108	G Ebony	G Ebony Coil	Waist		Low Rank	4	NA	NA	NA	26	-2	-3	-2	-2	4	Burst	1	Bleeding Resistance	1	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+109	G Ebony	G Ebony Greaves	Legs		Low Rank	4	1	NA	NA	26	-2	-3	-2	-2	4	Bleeding Resistance	1	NA	NA	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+110	G Ebony	G Ebony Helm	Helm	NA	Low Rank	4	1	NA	NA	26	-2	-3	-2	-2	4	Burst	1	NA	NA	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+111	G Ebony	G Ebony Mail	Chest	NA	Low Rank	4	1	NA	NA	26	-2	-3	-2	-2	4	Bleeding Resistance	1	NA	NA	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+112	G Rathalos	G Rathalos Vambraces	Arms		Low Rank	4	1	NA	NA	26	3	1	-2	1	-5	Weakness Exploit	1	NA	NA	NA	NA	Guardian's Pulse	Rathalos's Flare
+113	G Rathalos	G Rathalos Coil	Waist		Low Rank	4	1	NA	NA	26	3	1	-2	1	-5	Intimidator	1	NA	NA	NA	NA	Guardian's Pulse	Rathalos's Flare
+114	G Rathalos	G Rathalos Greaves	Legs		Low Rank	4	1	NA	NA	26	3	1	-2	1	-5	Weakness Exploit	1	NA	NA	NA	NA	Guardian's Pulse	Rathalos's Flare
+115	G Rathalos	G Rathalos Helm	Helm	NA	Low Rank	4	NA	NA	NA	26	3	1	-2	1	-5	Weakness Exploit	1	Intimidator	1	NA	NA	Guardian's Pulse	Rathalos's Flare
+116	G Rathalos	G Rathalos Mail	Chest	NA	Low Rank	4	1	NA	NA	26	3	1	-2	1	-5	Intimidator	1	NA	NA	NA	NA	Guardian's Pulse	Rathalos's Flare
+117	G Seikret	G Seikret Coil	Waist		Low Rank	4	1	NA	NA	22	0	0	4	0	-3	Jump Master	1	NA	NA	NA	NA	Guardian's Pulse	NA
+118	Rey	Rey Sandbraces	Arms		Low Rank	4	1	NA	NA	26	0	-2	4	-3	0	Latent Power	1	NA	NA	NA	NA	Lord's Favor	Rey Dau's Voltage
+119	Rey	Rey Sandcoil	Waist		Low Rank	4	1	NA	NA	26	0	-2	4	-3	0	Constitution	1	NA	NA	NA	NA	Lord's Favor	Rey Dau's Voltage
+120	Rey	Rey Sandgreaves	Legs		Low Rank	4	NA	NA	NA	26	0	-2	4	-3	0	Constitution	1	Latent Power	1	NA	NA	Lord's Favor	Rey Dau's Voltage
+121	Rey	Rey Sandhelm	Helm	NA	Low Rank	4	NA	NA	NA	26	0	-2	4	-3	0	Latent Power	1	NA	NA	NA	NA	Lord's Favor	Rey Dau's Voltage
+122	Rey	Rey Sandmail	Chest	NA	Low Rank	4	NA	NA	NA	26	0	-2	4	-3	0	Constitution	1	NA	NA	NA	NA	Lord's Favor	Rey Dau's Voltage
+123	Udra	Udra Mirebraces	Arms		Low Rank	4	1	NA	NA	26	5	-4	0	1	0	Speed Eating	1	NA	NA	NA	NA	Lord's Favor	Nu Udra's Mutiny
+124	Udra	Udra Mirecoil	Waist		Low Rank	4	1	NA	NA	26	5	-4	0	1	0	Resentment	1	NA	NA	NA	NA	Lord's Favor	Nu Udra's Mutiny
+125	Udra	Udra Miregreaves	Legs		Low Rank	4	1	NA	NA	26	5	-4	0	1	0	Speed Eating	1	NA	NA	NA	NA	Lord's Favor	Nu Udra's Mutiny
+126	Udra	Udra Mirehelm	Helm	NA	Low Rank	4	1	NA	NA	26	5	-4	0	1	0	Resentment	1	NA	NA	NA	NA	Lord's Favor	Nu Udra's Mutiny
+127	Udra	Udra Miremail	Chest	NA	Low Rank	4	NA	NA	NA	26	5	-4	0	1	0	Resentment	1	Speed Eating	1	NA	NA	Lord's Favor	Nu Udra's Mutiny
+128	Xu Wu	Xu Wu Vambraces	Arms		Low Rank	4	1	NA	NA	26	1	1	1	-3	2	Maximum Might	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+129	Xu Wu	Xu Wu Coil	Waist		Low Rank	4	NA	NA	NA	26	1	1	1	-3	2	Maximum Might	1	Stamina Surge	1	NA	NA	Flexible Leathercraft	NA
+130	Xu Wu	Xu Wu Greaves	Legs		Low Rank	4	1	NA	NA	26	1	1	1	-3	2	Stamina Surge	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+131	Xu Wu	Xu Wu Helm	Helm	NA	Low Rank	4	1	NA	NA	26	1	1	1	-3	2	Maximum Might	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+132	Xu Wu	Xu Wu Mail	Chest	NA	Low Rank	4	1	NA	NA	26	1	1	1	-3	2	Stamina Surge	1	NA	NA	NA	NA	Flexible Leathercraft	NA
+133	Afi	Afi Crown Alpha	Helm	Alpha	High Rank	5	2	NA	NA	36	2	-3	2	2	2	Bombardier	2	Fire Resistance	2	NA	NA	Festival Spirit	Flamefete Prayer
+134	Afi	Afi Top Alpha	Chest	Alpha	High Rank	5	2	NA	NA	36	2	-3	2	2	2	Burst	1	Heroics	1	NA	NA	Festival Spirit	Flamefete Prayer
+135	Afi	Afi Armguards Alpha	Arms	Alpha	High Rank	5	1	NA	NA	36	2	-3	2	2	2	Burst	2	NA	NA	NA	NA	Festival Spirit	Flamefete Prayer
+136	Afi	Afi Wrap Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	36	2	-3	2	2	2	Blast Resistance	2	Burst	1	Fire Resistance	1	Festival Spirit	Flamefete Prayer
+137	Afi	Afi Sandals Alpha	Legs	Alpha	High Rank	5	1	1	NA	36	2	-3	2	2	2	Burst	1	Bombardier	1	Blast Resistance	1	Festival Spirit	Flamefete Prayer
+138	Alloy	Alloy Helm Alpha	Helm	Alpha	High Rank	5	1	1	NA	32	-2	1	-2	-2	1	Quick Sheathe	1	NA	NA	NA	NA	NA	NA
+139	Alloy	Alloy Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	32	-2	1	-2	-2	1	Flinch Free	2	NA	NA	NA	NA	NA	NA
+140	Alloy	Alloy Vambraces Alpha	Arms	Alpha	High Rank	5	1	1	NA	32	-2	1	-2	-2	1	Tremor Resistance	1	NA	NA	NA	NA	NA	NA
+141	Alloy	Alloy Coil Alpha	Waist	Alpha	High Rank	5	1	NA	NA	32	-2	1	-2	-2	1	Quick Sheathe	1	Tremor Resistance	1	NA	NA	NA	NA
+142	Alloy	Alloy Greaves Alpha	Legs	Alpha	High Rank	5	1	NA	NA	32	-2	1	-2	-2	1	Quick Sheathe	1	Flinch Free	1	NA	NA	NA	NA
+143	Balahara	Balahara Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	38	-1	2	-3	1	1	Evade Window	1	Geologist	1	NA	NA	Scaling Prowess	NA
+144	Balahara	Balahara Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	38	-1	2	-3	1	1	Stamina Surge	1	Geologist	1	NA	NA	Scaling Prowess	NA
+145	Balahara	Balahara Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	38	-1	2	-3	1	1	Stamina Surge	1	Evade Extender	1	NA	NA	Scaling Prowess	NA
+146	Balahara	Balahara Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	38	-1	2	-3	1	1	Evade Window	1	Evade Extender	1	NA	NA	Scaling Prowess	NA
+147	Balahara	Balahara Greaves Alpha	Legs	Alpha	High Rank	5	1	1	NA	38	-1	2	-3	1	1	Evade Extender	1	Geologist	1	NA	NA	Scaling Prowess	NA
+148	Balahara	Balahara Helm Beta	Helm	Beta	High Rank	5	2	NA	NA	38	-1	2	-3	1	1	Evade Window	1	NA	NA	NA	NA	Scale Layering	NA
+149	Balahara	Balahara Mail Beta	Chest	Beta	High Rank	5	1	1	1	38	-1	2	-3	1	1	Geologist	1	NA	NA	NA	NA	Scale Layering	NA
+150	Balahara	Balahara Vambraces Beta	Arms	Beta	High Rank	5	2	NA	NA	38	-1	2	-3	1	1	Evade Extender	1	NA	NA	NA	NA	Scale Layering	NA
+151	Balahara	Balahara Coil Beta	Waist	Beta	High Rank	5	1	1	NA	38	-1	2	-3	1	1	Evade Window	1	NA	NA	NA	NA	Scale Layering	NA
+152	Balahara	Balahara Greaves Beta	Legs	Beta	High Rank	5	1	1	1	38	-1	2	-3	1	1	Evade Extender	1	NA	NA	NA	NA	Scale Layering	NA
+153	Barina	Barina Headgear Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	36	-3	3	0	0	3	Foray	1	Paralysis Resistance	1	NA	NA	Neopteron Alert	NA
+154	Barina	Barina Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	36	-3	3	0	0	3	Recovery Up	2	Evade Window	1	NA	NA	Neopteron Alert	NA
+155	Barina	Barina Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	36	-3	3	0	0	3	Foray	1	Recovery Up	1	NA	NA	Neopteron Alert	NA
+156	Barina	Barina Coil Alpha	Waist	Alpha	High Rank	5	2	NA	NA	36	-3	3	0	0	3	Paralysis Resistance	2	NA	NA	NA	NA	Neopteron Alert	NA
+157	Barina	Barina Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	36	-3	3	0	0	3	Foray	1	Evade Window	1	NA	NA	Neopteron Alert	NA
+158	Barina	Barina Headgear Beta	Helm	Beta	High Rank	5	1	NA	NA	36	-3	3	0	0	3	Foray	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+159	Barina	Barina Mail Beta	Chest	Beta	High Rank	5	1	NA	NA	36	-3	3	0	0	3	Evade Window	1	Recovery Up	1	NA	NA	Neopteron Camouflage	NA
+160	Barina	Barina Vambraces Beta	Arms	Beta	High Rank	5	2	1	NA	36	-3	3	0	0	3	Recovery Up	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+161	Barina	Barina Coil Beta	Waist	Beta	High Rank	5	2	1	NA	36	-3	3	0	0	3	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+162	Barina	Barina Greaves Beta	Legs	Beta	High Rank	5	1	1	1	36	-3	3	0	0	3	Evade Window	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+163	Blossom	Blossom Headgear Alpha	Helm	Alpha	High Rank	5	2	1	NA	36	1	1	4	1	1	Paralysis Resistance	2	NA	NA	NA	NA	Festival Spirit	NA
+164	Blossom	Blossom Vest Alpha	Chest	Alpha	High Rank	5	2	1	1	36	1	1	4	1	1	Paralysis Resistance	1	NA	NA	NA	NA	Festival Spirit	NA
+165	Blossom	Blossom Cuffs Alpha	Arms	Alpha	High Rank	5	1	1	1	36	1	1	4	1	1	Poison Resistance	2	NA	NA	NA	NA	Festival Spirit	NA
+166	Blossom	Blossom Coat Alpha	Waist	Alpha	High Rank	5	2	2	NA	36	1	1	4	1	1	Recovery Speed	1	Entomologist	1	NA	NA	Festival Spirit	NA
+167	Blossom	Blossom Boots Alpha	Legs	Alpha	High Rank	5	1	1	NA	36	1	1	4	1	1	Poison Resistance	1	Recovery Speed	2	NA	NA	Festival Spirit	NA
+168	Bone	Bone Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	32	2	0	2	0	2	Stun Resistance	1	Speed Eating	1	NA	NA	NA	NA
+169	Bone	Bone Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	32	2	0	2	0	2	Stun Resistance	1	Marathon Runner	1	NA	NA	NA	NA
+170	Bone	Bone Vambraces Alpha	Arms	Alpha	High Rank	5	1	NA	NA	32	2	0	2	0	2	Marathon Runner	1	Speed Eating	1	NA	NA	NA	NA
+171	Bone	Bone Coil Alpha	Waist	Alpha	High Rank	5	1	1	NA	32	2	0	2	0	2	Marathon Runner	1	NA	NA	NA	NA	NA	NA
+172	Bone	Bone Greaves Alpha	Legs	Alpha	High Rank	5	1	1	NA	32	2	0	2	0	2	Stun Resistance	1	NA	NA	NA	NA	NA	NA
+173	Bulaqchi	Bulaqchi Specs Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	32	-4	1	1	-2	4	Weakness Exploit	1	Entomologist	1	NA	NA	Neopteron Alert	NA
+174	Bulaqchi	Bulaqchi Specs Beta	Helm	Beta	High Rank	5	2	1	NA	32	-4	1	1	-2	4	Entomologist	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+175	Chainmail	Chainmail Headgear Alpha	Helm	Alpha	High Rank	5	1	1	NA	26	0	2	0	0	0	Geologist	1	NA	NA	NA	NA	NA	NA
+176	Chainmail	Chainmail Armor Alpha	Chest	Alpha	High Rank	5	1	NA	NA	26	0	2	0	0	0	Ice Resistance	1	Geologist	1	NA	NA	NA	NA
+177	Chainmail	Chainmail Gloves Alpha	Arms	Alpha	High Rank	5	1	NA	NA	26	0	2	0	0	0	Recovery Speed	1	Geologist	1	NA	NA	NA	NA
+178	Chainmail	Chainmail Belt Alpha	Waist	Alpha	High Rank	5	1	NA	NA	26	0	2	0	0	0	Ice Resistance	1	Recovery Speed	1	NA	NA	NA	NA
+179	Chainmail	Chainmail Pants Alpha	Legs	Alpha	High Rank	5	1	1	NA	26	0	2	0	0	0	Recovery Speed	1	NA	NA	NA	NA	NA	NA
+180	Chatacabra	Chatacabra Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	1	2	-3	-1	1	Wide-Range	1	Speed Eating	1	NA	NA	Flexible Leathercraft	NA
+181	Chatacabra	Chatacabra Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	36	1	2	-3	-1	1	Weakness Exploit	1	Speed Eating	1	NA	NA	Flexible Leathercraft	NA
+182	Chatacabra	Chatacabra Vambraces Alpha	Arms	Alpha	High Rank	5	1	NA	NA	36	1	2	-3	-1	1	Wide-Range	1	Item Prolonger	1	NA	NA	Flexible Leathercraft	NA
+183	Chatacabra	Chatacabra Coil Alpha	Waist	Alpha	High Rank	5	1	NA	NA	36	1	2	-3	-1	1	Speed Eating	1	Item Prolonger	1	NA	NA	Flexible Leathercraft	NA
+184	Chatacabra	Chatacabra Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	36	1	2	-3	-1	1	Weakness Exploit	1	Item Prolonger	1	NA	NA	Flexible Leathercraft	NA
+185	Chatacabra	Chatacabra Helm Beta	Helm	Beta	High Rank	5	2	NA	NA	36	1	2	-3	-1	1	Speed Eating	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+186	Chatacabra	Chatacabra Mail Beta	Chest	Beta	High Rank	5	1	1	1	36	1	2	-3	-1	1	Speed Eating	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+187	Chatacabra	Chatacabra Vambraces Beta	Arms	Beta	High Rank	5	2	NA	NA	36	1	2	-3	-1	1	Item Prolonger	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+188	Chatacabra	Chatacabra Coil Beta	Waist	Beta	High Rank	5	1	1	NA	36	1	2	-3	-1	1	Speed Eating	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+189	Chatacabra	Chatacabra Greaves Beta	Legs	Beta	High Rank	5	1	NA	NA	36	1	2	-3	-1	1	Weakness Exploit	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+190	Clerk	Clerk Visor Alpha	Helm	Alpha	High Rank	5	2	1	NA	48	2	2	2	2	2	Divine Blessing	2	Recovery Up	1	Palico Rally	2	Glory's Favor	NA
+191	Clerk	Clerk Suit Alpha	Chest	Alpha	High Rank	5	2	1	NA	48	2	2	2	2	2	Divine Blessing	1	Survival Expert	2	NA	NA	NA	NA
+192	Clerk	Clerk Vambraces Alpha	Arms	Alpha	High Rank	5	2	1	NA	48	2	2	2	2	2	Survival Expert	1	Tool Specialist	2	Palico Rally	1	Glory's Favor	NA
+193	Clerk	Clerk Belt Alpha	Waist	Alpha	High Rank	5	1	NA	NA	48	2	2	2	2	2	Recovery Up	2	Tool Specialist	2	NA	NA	Glory's Favor	NA
+194	Clerk	Clerk Shoes Alpha	Legs	Alpha	High Rank	5	2	2	NA	2	2	2	2	2	2	Tool Specialist	1	Palico Rally	2	NA	NA	Glory's Favor	NA
+195	Comaqchi	Comaqchi Accessory Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	32	-5	0	0	3	3	Sleep Resistance	2	Foray	1	NA	NA	Neopteron Alert	NA
+196	Comaqchi	Comaqchi Accessory Beta	Helm	Beta	High Rank	5	2	1	NA	32	-5	0	0	3	3	Sleep Resistance	2	NA	NA	NA	NA	Neopteron Camouflage	NA
+197	Conga	Conga Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	-3	1	1	-1	2	Intimidator	1	Free Meal	1	NA	NA	Fortifying Pelt	NA
+198	Conga	Conga Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	36	-3	1	1	-1	2	Intimidator	2	Burst	1	NA	NA	Fortifying Pelt	NA
+199	Conga	Conga Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	36	-3	1	1	-1	2	Speed Eating	1	Mushroomancer	1	NA	NA	Fortifying Pelt	NA
+200	Conga	Conga Coil Alpha	Waist	Alpha	High Rank	5	1	NA	NA	36	-3	1	1	-1	2	Mushroomancer	1	Free Meal	1	NA	NA	Fortifying Pelt	NA
+201	Conga	Conga Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	36	-3	1	1	-1	2	Burst	1	Mushroomancer	1	NA	NA	Fortifying Pelt	NA
+202	Conga	Conga Helm Beta	Helm	Beta	High Rank	5	2	NA	NA	36	-3	1	1	-1	2	Intimidator	1	NA	NA	NA	NA	Alluring Pelt	NA
+203	Conga	Conga Mail Beta	Chest	Beta	High Rank	5	1	1	1	36	-3	1	1	-1	2	Intimidator	2	NA	NA	NA	NA	Alluring Pelt	NA
+204	Conga	Conga Vambraces Beta	Arms	Beta	High Rank	5	1	NA	NA	36	-3	1	1	-1	2	Mushroomancer	1	NA	NA	NA	NA	Alluring Pelt	NA
+205	Conga	Conga Coil Beta	Waist	Beta	High Rank	5	2	NA	NA	36	-3	1	1	-1	2	Mushroomancer	1	NA	NA	NA	NA	Alluring Pelt	NA
+206	Conga	Conga Greaves Beta	Legs	Beta	High Rank	5	2	NA	NA	36	-3	1	1	-1	2	Burst	1	NA	NA	NA	NA	Alluring Pelt	NA
+207	Diver	Diver's Mask Alpha	Helm	Alpha	High Rank	5	2	NA	NA	36	1	4	1	1	1	Ambush	2	NA	NA	NA	NA	Festival Spirit	NA
+208	Diver	Diver's Suit Alpha	Chest	Alpha	High Rank	5	1	1	NA	36	1	4	1	1	1	Hunger Resistance	2	Leap of Faith	1	NA	NA	Festival Spirit	NA
+209	Diver	Diver's Braces Alpha	Arms	Alpha	High Rank	5	2	NA	NA	36	1	4	1	1	1	Ambush	1	Marathon Runner	2	NA	NA	Festival Spirit	NA
+210	Diver	Diver's Belt Alpha	Waist	Alpha	High Rank	5	1	1	1	36	1	4	1	1	1	Aquatic-Oilsilt Mobility	1	Hunger Resistance	1	NA	NA	Festival Spirit	NA
+211	Diver	Diver's Boots Alpha	Legs	Alpha	High Rank	5	2	1	NA	36	1	4	1	1	1	Aquatic-Oilsilt Mobility	1	Marathon Runner	1	NA	NA	Festival Spirit	NA
+212	Expedition	Expedition Headgear Alpha	Helm	Alpha	High Rank	5	1	NA	NA	40	1	1	1	1	1	Blight Resistance	1	Coalescence	1	NA	NA	NA	NA
+213	Faux Felyne	Faux Felyne Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	36	2	2	2	2	2	Palico Rally	5	NA	NA	NA	NA	NA	NA
+214	Gourmand	Gourmand's Earring Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	0	0	0	0	0	Speed Eating	2	Free Meal	2	NA	NA	Glory's Favor	NA
+215	Guild Cross	Guild Cross Circlet Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	0	0	0	0	0	Flinch Free	1	Bind Resistance	3	Earplugs	1	Glory's Favor	NA
+216	Guild Cross	Guild Cross Suit Alpha	Chest	Alpha	High Rank	5	2	1	NA	36	0	0	0	0	0	Tremor Resistance	1	Earplugs	1	NA	NA	Glory's Favor	NA
+217	Guild Cross	Guild Cross Vambraces Alpha	Arms	Alpha	High Rank	5	2	NA	NA	36	0	0	0	0	0	Flinch Free	2	Tremor Resistance	1	Bind Resistance	1	Glory's Favor	NA
+218	Guild Cross	Guild Cross Coil Alpha	Waist	Alpha	High Rank	5	2	NA	NA	0	0	0	0	0	0	Windproof	2	Earplugs	1	NA	NA	Glory's Favor	NA
+219	Guild Cross	Guild Cross Boots Alpha	Legs	Alpha	High Rank	5	2	2	NA	36	0	0	0	0	0	Tremor Resistance	1	Windproof	1	NA	NA	Glory's Favor	NA
+220	Gypceros	Gypceros Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	-4	3	4	-1	1	Stamina Surge	1	Blindsider	1	NA	NA	Flexible Leathercraft	NA
+221	Gypceros	Gypceros Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	36	-4	3	4	-1	1	Poison Resistance	1	Stamina Surge	1	NA	NA	Flexible Leathercraft	NA
+222	Gypceros	Gypceros Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	36	-4	3	4	-1	1	Resentment	2	Poison Resistance	1	NA	NA	Flexible Leathercraft	NA
+223	Gypceros	Gypceros Coil Alpha	Waist	Alpha	High Rank	5	1	NA	NA	36	-4	3	4	-1	1	Resentment	1	Stamina Surge	1	NA	NA	Flexible Leathercraft	NA
+224	Gypceros	Gypceros Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	36	-4	3	4	-1	1	Marathon Runner	2	Resentment	1	NA	NA	Flexible Leathercraft	NA
+225	Gypceros	Gypceros Helm Beta	Helm	Beta	High Rank	5	1	1	NA	36	-4	3	4	-1	1	Stamina Surge	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+226	Gypceros	Gypceros Mail Beta	Chest	Beta	High Rank	5	2	NA	NA	36	-4	3	4	-1	1	Stamina Surge	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+227	Gypceros	Gypceros Vambraces Beta	Arms	Beta	High Rank	5	1	NA	NA	36	-4	3	4	-1	1	Resentment	2	NA	NA	NA	NA	Buttery Leathercraft	NA
+228	Gypceros	Gypceros Coil Beta	Waist	Beta	High Rank	5	2	1	NA	36	-4	3	4	-1	1	Stamina Surge	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+229	Gypceros	Gypceros Greaves Beta	Legs	Beta	High Rank	5	1	NA	NA	36	-4	3	4	-1	1	Resentment	1	Marathon Runner	1	NA	NA	Buttery Leathercraft	NA
+230	Harvest	Harvest Flor Alpha	Helm	Alpha	High Rank	5	1	1	NA	36	4	1	1	1	1	Resentment	1	Botanist	1	NA	NA	Carving Master	NA
+231	Harvest	Harvest Tronco Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	36	4	1	1	1	1	Mushroomancer	2	Resentment	1	NA	NA	Carving Master	NA
+232	Harvest	Harvest Trama Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	36	4	1	1	1	1	Free Meal	2	Mushroomancer	1	Constitution	2	Carving Master	NA
+233	Harvest	Harvest Hoja Alpha	Waist	Alpha	High Rank	5	1	1	NA	36	4	1	1	1	1	Free Meal	1	Botanist	1	Constitution	1	Carving Master	NA
+234	Harvest	Harvest Raiz Alpha	Legs	Alpha	High Rank	5	2	NA	NA	36	4	1	1	1	1	Botanist	2	Constitution	2	NA	NA	Carving Master	NA
+235	Hirabami	Hirabami Headdress Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	38	-3	2	-2	3	0	Evade Window	1	Evade Extender	1	NA	NA	Scaling Prowess	NA
+236	Hirabami	Hirabami Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	38	-3	2	-2	3	0	Ice Resistance	2	Evade Window	1	NA	NA	Scaling Prowess	NA
+237	Hirabami	Hirabami Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	38	-3	2	-2	3	0	Peak Performance	1	Evade Window	1	NA	NA	Scaling Prowess	NA
+238	Hirabami	Hirabami Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	38	-3	2	-2	3	0	Evade Window	2	NA	NA	NA	NA	Scaling Prowess	NA
+239	Hirabami	Hirabami Greaves Alpha	Legs	Alpha	High Rank	5	1	NA	NA	38	-3	2	-2	3	0	Peak Performance	1	Ice Resistance	1	NA	NA	Scaling Prowess	NA
+240	Hirabami	Hirabami Headdress Beta	Helm	Beta	High Rank	5	1	1	NA	38	-3	2	-2	3	0	Evade Window	1	NA	NA	NA	NA	Scale Layering	NA
+241	Hirabami	Hirabami Mail Beta	Chest	Beta	High Rank	5	2	NA	NA	38	-3	2	-2	3	0	Evade Window	1	Ice Resistance	1	NA	NA	Scale Layering	NA
+242	Hirabami	Hirabami Vambraces Beta	Arms	Beta	High Rank	5	1	1	NA	38	-3	2	-2	3	0	Evade Window	1	NA	NA	NA	NA	Scale Layering	NA
+243	Hirabami	Hirabami Coil Beta	Waist	Beta	High Rank	5	2	NA	NA	38	-3	2	-2	3	0	Evade Window	1	NA	NA	NA	NA	Scale Layering	NA
+244	Hirabami	Hirabami Greaves Beta	Legs	Beta	High Rank	5	2	NA	NA	38	-3	2	-2	3	0	Peak Performance	1	NA	NA	NA	NA	Scale Layering	NA
+245	Hope	Hope Mask Alpha	Helm	Alpha	High Rank	5	1	NA	NA	26	1	0	1	0	0	Divine Blessing	2	NA	NA	NA	NA	NA	NA
+246	Hope	Hope Mail Alpha	Chest	Alpha	High Rank	5	1	1	NA	26	1	0	1	0	0	Poison Resistance	1	NA	NA	NA	NA	NA	NA
+247	Hope	Hope Vambraces Alpha	Arms	Alpha	High Rank	5	1	1	NA	26	1	0	1	0	0	Sleep Resistance	1	NA	NA	NA	NA	NA	NA
+248	Hope	Hope Coil Alpha	Waist	Alpha	High Rank	5	1	NA	NA	26	1	0	1	0	0	Divine Blessing	1	Stun Resistance	1	NA	NA	NA	NA
+249	Hope	Hope Greaves Alpha	Legs	Alpha	High Rank	5	1	NA	NA	26	1	0	1	0	0	Stun Resistance	2	NA	NA	NA	NA	NA	NA
+250	Kranodath	Kranodath Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	32	4	-2	0	-2	0	Flinch Free	2	Partbreaker	1	NA	NA	Scaling Prowess	NA
+251	Kranodath	Kranodath Mail Beta	Chest	Beta	High Rank	5	2	NA	NA	32	4	-2	0	-2	0	Flinch Free	2	NA	NA	NA	NA	Scale Layering	NA
+252	Kut-Ku	Kut-Ku Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	3	0	-2	-4	2	Constitution	2	Fire Resistance	1	NA	NA	Scaling Prowess	NA
+253	Kut-Ku	Kut-Ku Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	36	3	0	-2	-4	2	Agitator	1	Fire Resistance	1	NA	NA	Scaling Prowess	NA
+254	Kut-Ku	Kut-Ku Vambraces Alpha	Arms	Alpha	High Rank	5	1	NA	NA	36	3	0	-2	-4	2	Constitution	1	Agitator	1	NA	NA	Scaling Prowess	NA
+255	Kut-Ku	Kut-Ku Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	36	3	0	-2	-4	2	Recovery Up	2	Agitator	1	NA	NA	Scaling Prowess	NA
+256	Kut-Ku	Kut-Ku Greaves Alpha	Legs	Alpha	High Rank	5	2	NA	NA	36	3	0	-2	-4	2	Constitution	2	Recovery Up	1	NA	NA	Scaling Prowess	NA
+257	Kut-Ku	Kut-Ku Helm Beta	Helm	Beta	High Rank	5	2	1	NA	36	3	0	-2	-4	2	Constitution	2	NA	NA	NA	NA	Scale Layering	NA
+258	Kut-Ku	Kut-Ku Mail Beta	Chest	Beta	High Rank	5	2	NA	NA	36	3	0	-2	-4	2	Agitator	1	NA	NA	NA	NA	Scale Layering	NA
+259	Kut-Ku	Kut-Ku Vambraces Beta	Arms	Beta	High Rank	5	2	1	1	36	3	0	-2	-4	2	Constitution	1	NA	NA	NA	NA	Scale Layering	NA
+260	Kut-Ku	Kut-Ku Coil Beta	Waist	Beta	High Rank	5	1	NA	NA	36	3	0	-2	-4	2	Agitator	1	Recovery Up	1	NA	NA	Scale Layering	NA
+261	Kut-Ku	Kut-Ku Greaves Beta	Legs	Beta	High Rank	5	2	1	NA	36	3	0	-2	-4	2	Constitution	1	Recovery Up	1	NA	NA	Scale Layering	NA
+262	Leather	Leather Headgear Alpha	Helm	Alpha	High Rank	5	1	NA	NA	26	2	0	0	0	0	Botanist	2	NA	NA	NA	NA	NA	NA
+263	Leather	Leather Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	26	2	0	0	0	0	Botanist	1	Item Prolonger	1	NA	NA	NA	NA
+264	Leather	Leather Gloves Alpha	Arms	Alpha	High Rank	5	1	NA	NA	26	2	0	0	0	0	Botanist	1	Hunger Resistance	1	NA	NA	NA	NA
+265	Leather	Leather Belt Alpha	Waist	Alpha	High Rank	5	1	1	NA	26	2	0	0	0	0	Hunger Resistance	1	NA	NA	NA	NA	NA	NA
+266	Leather	Leather Pants Alpha	Legs	Alpha	High Rank	5	1	NA	NA	26	2	0	0	0	0	Hunger Resistance	1	Item Prolonger	1	NA	NA	NA	NA
+267	Mimiphyta	Mimiphyta Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	-3	2	-2	2	2	Entomologist	1	Ambush	1	NA	NA	Fortifying Pelt	NA
+268	Nerscylla	Nerscylla Helm Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	38	-2	2	-2	1	2	Poison Resistance	2	Bind Resistance	1	NA	NA	Neopteron Alert	NA
+269	Nerscylla	Nerscylla Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	38	-2	2	-2	1	2	Weakness Exploit	1	Ambush	1	NA	NA	Neopteron Alert	NA
+270	Nerscylla	Nerscylla Vambraces Alpha	Arms	Alpha	High Rank	5	1	NA	NA	38	-2	2	-2	1	2	Poison Resistance	1	Ambush	1	NA	NA	Neopteron Alert	NA
+271	Nerscylla	Nerscylla Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	38	-2	2	-2	1	2	Sleep Resistance	2	Bind Resistance	1	NA	NA	Neopteron Alert	NA
+272	Nerscylla	Nerscylla Greaves Alpha	Legs	Alpha	High Rank	5	1	NA	NA	38	-2	2	-2	1	2	Sleep Resistance	1	Ambush	1	NA	NA	Neopteron Alert	NA
+273	Nerscylla	Nerscylla Helm Beta	Helm	Beta	High Rank	5	2	NA	NA	38	-2	2	-2	1	2	Bind Resistance	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+274	Nerscylla	Nerscylla Mail Beta	Chest	Beta	High Rank	5	1	1	1	38	-2	2	-2	1	2	Ambush	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+275	Nerscylla	Nerscylla Vambraces Beta	Arms	Beta	High Rank	5	2	NA	NA	38	-2	2	-2	1	2	Ambush	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+276	Nerscylla	Nerscylla Coil Beta	Waist	Beta	High Rank	5	1	1	NA	38	-2	2	-2	1	2	Bind Resistance	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+277	Nerscylla	Nerscylla Greaves Beta	Legs	Beta	High Rank	5	2	1	NA	38	-2	2	-2	1	2	Sleep Resistance	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+278	Piragill	Piragill Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	32	-3	4	-3	1	1	Water Resistance	2	Aquatic-Oilsilt Mobility	1	NA	NA	Flexible Leathercraft	NA
+279	Piragill	Piragill Greaves Beta	Legs	Beta	High Rank	5	2	NA	NA	32	-3	4	-3	1	1	Aquatic-Oilsilt Mobility	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+280	Quematrice	Quematrice Helm Alpha	Helm	Alpha	High Rank	5	1	NA	NA	36	2	-3	0	-1	0	Latent Power	1	Flinch Free	1	NA	NA	Scaling Prowess	NA
+281	Quematrice	Quematrice Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	36	2	-3	0	-1	0	Latent Power	1	Fire Resistance	1	NA	NA	Scaling Prowess	NA
+282	Quematrice	Quematrice Braces Alpha	Arms	Alpha	High Rank	5	1	1	NA	36	2	-3	0	-1	0	Fire Resistance	1	Flinch Free	1	NA	NA	Scaling Prowess	NA
+283	Quematrice	Quematrice Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	36	2	-3	0	-1	0	Latent Power	1	Fire Resistance	1	NA	NA	Scaling Prowess	NA
+284	Quematrice	Quematrice Greaves Alpha	Legs	Alpha	High Rank	5	1	NA	NA	36	2	-3	0	-1	0	Evade Extender	1	Flinch Free	1	NA	NA	Scaling Prowess	NA
+285	Quematrice	Quematrice Helm Beta	Helm	Beta	High Rank	5	2	NA	NA	36	2	-3	0	-1	0	Latent Power	1	NA	NA	NA	NA	Scale Layering	NA
+286	Quematrice	Quematrice Mail Beta	Chest	Beta	High Rank	5	1	NA	NA	36	2	-3	0	-1	0	Latent Power	1	NA	NA	NA	NA	Scale Layering	NA
+287	Quematrice	Quematrice Braces Beta	Arms	Beta	High Rank	5	2	1	NA	36	2	-3	0	-1	0	Flinch Free	1	NA	NA	NA	NA	Scale Layering	NA
+288	Quematrice	Quematrice Coil Beta	Waist	Beta	High Rank	5	2	NA	NA	36	2	-3	0	-1	0	Fire Resistance	2	NA	NA	NA	NA	Scale Layering	NA
+289	Quematrice	Quematrice Greaves Beta	Legs	Beta	High Rank	5	1	1	1	36	2	-3	0	-1	0	Flinch Free	1	NA	NA	NA	NA	Scale Layering	NA
+290	Rathian	Rathian Helm Alpha	Helm	Alpha	High Rank	5	2	NA	NA	38	2	0	-2	0	-3	Divine Blessing	1	Recovery Speed	1	NA	NA	Scaling Prowess	NA
+291	Rathian	Rathian Mail Alpha	Chest	Alpha	High Rank	5	NA	NA	NA	38	2	0	-2	0	-3	Foray	2	NA	NA	NA	NA	Scaling Prowess	NA
+292	Rathian	Rathian Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	38	2	0	-2	0	-3	Divine Blessing	2	Foray	1	NA	NA	Scaling Prowess	NA
+293	Rathian	Rathian Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	38	2	0	-2	0	-3	Foray	1	Tool Specialist	1	NA	NA	Scaling Prowess	NA
+294	Rathian	Rathian Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	38	2	0	-2	0	-3	Recovery Speed	2	Foray	1	NA	NA	Scaling Prowess	NA
+295	Rathian	Rathian Helm Beta	Helm	Beta	High Rank	5	2	1	NA	38	2	0	-2	0	-3	Divine Blessing	1	NA	NA	NA	NA	Scale Layering	NA
+296	Rathian	Rathian Mail Beta	Chest	Beta	High Rank	5	1	1	1	38	2	0	-2	0	-3	Foray	1	NA	NA	NA	NA	Scale Layering	NA
+297	Rathian	Rathian Vambraces Beta	Arms	Beta	High Rank	5	1	NA	NA	38	2	0	-2	0	-3	Foray	1	Divine Blessing	1	NA	NA	Scale Layering	NA
+298	Rathian	Rathian Coil Beta	Waist	Beta	High Rank	5	2	NA	NA	38	2	0	-2	0	-3	Foray	1	NA	NA	NA	NA	Scale Layering	NA
+299	Rathian	Rathian Greaves Beta	Legs	Beta	High Rank	5	1	NA	NA	38	2	0	-2	0	-3	Foray	1	Recovery Speed	1	NA	NA	Scale Layering	NA
+300	Rompopolo	Rompopolo Helm Alpha	Helm	Alpha	High Rank	5	1	1	NA	36	0	-3	0	0	1	Wide-Range	2	NA	NA	NA	NA	Flexible Leathercraft	NA
+301	Rompopolo	Rompopolo Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	36	0	-3	0	0	1	Poison Resistance	2	Wide-Range	1	NA	NA	Flexible Leathercraft	NA
+302	Rompopolo	Rompopolo Vambraces Alpha	Arms	Alpha	High Rank	5	1	NA	NA	36	0	-3	0	0	1	Poison Resistance	1	Earplugs	1	NA	NA	Flexible Leathercraft	NA
+303	Rompopolo	Rompopolo Coil Alpha	Waist	Alpha	High Rank	5	NA	NA	NA	36	0	-3	0	0	1	Foray	1	Wide-Range	1	NA	NA	Flexible Leathercraft	NA
+304	Rompopolo	Rompopolo Greaves Alpha	Legs	Alpha	High Rank	5	NA	NA	NA	36	0	-3	0	0	1	Wide-Range	2	Earplugs	1	NA	NA	Flexible Leathercraft	NA
+305	Rompopolo	Rompopolo Helm Beta	Helm	Beta	High Rank	5	2	1	NA	36	0	-3	0	0	1	Wide-Range	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+306	Rompopolo	Rompopolo Mail Beta	Chest	Beta	High Rank	5	2	NA	NA	36	0	-3	0	0	1	Poison Resistance	2	NA	NA	NA	NA	Buttery Leathercraft	NA
+307	Rompopolo	Rompopolo Vambraces Beta	Arms	Beta	High Rank	5	2	NA	NA	36	0	-3	0	0	1	Earplugs	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+308	Rompopolo	Rompopolo Coil Beta	Waist	Beta	High Rank	5	1	NA	NA	36	0	-3	0	0	1	Foray	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+309	Rompopolo	Rompopolo Greaves Beta	Legs	Beta	High Rank	5	2	NA	NA	36	0	-3	0	0	1	Wide-Range	2	NA	NA	NA	NA	Buttery Leathercraft	NA
+310	Talioth	Talioth Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	32	4	-2	-2	-2	2	Burst	1	Leap of Faith	1	NA	NA	Flexible Leathercraft	NA
+311	Talioth	Talioth Vambraces Beta	Arms	Beta	High Rank	5	2	1	NA	32	4	-2	-2	-2	2	Leap of Faith	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+312	Vespoid	Vespoid Helm Alpha	Helm	Alpha	High Rank	5	NA	NA	NA	32	-2	1	1	1	2	Survival Expert	1	Ambush	1	NA	NA	Neopteron Alert	NA
+313	Vespoid	Vespoid Mail Alpha	Chest	Alpha	High Rank	5	1	NA	NA	32	-2	1	1	1	2	Evade Window	1	Survival Expert	1	NA	NA	Neopteron Alert	NA
+314	Vespoid	Vespoid Vambraces Alpha	Arms	Alpha	High Rank	5	NA	NA	NA	32	-2	1	1	1	2	Paralysis Resistance	1	Ambush	1	NA	NA	Neopteron Alert	NA
+315	Vespoid	Vespoid Coil Alpha	Waist	Alpha	High Rank	5	1	NA	NA	32	-2	1	1	1	2	Evade Window	1	Paralysis Resistance	1	NA	NA	Neopteron Alert	NA
+316	Vespoid	Vespoid Greaves Alpha	Legs	Alpha	High Rank	5	1	1	NA	32	-2	1	1	1	2	Paralysis Resistance	1	Survival Expert	1	NA	NA	Neopteron Alert	NA
+317	Vespoid	Vespoid Helm Beta	Helm	Beta	High Rank	5	2	NA	NA	32	-2	1	1	1	2	Survival Expert	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+318	Vespoid	Vespoid Mail Beta	Chest	Beta	High Rank	5	1	1	1	32	-2	1	1	1	2	Survival Expert	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+319	Vespoid	Vespoid Vambraces Beta	Arms	Beta	High Rank	5	2	NA	NA	32	-2	1	1	1	2	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+320	Vespoid	Vespoid Coil Beta	Waist	Beta	High Rank	5	1	1	1	32	-2	1	1	1	2	Paralysis Resistance	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+321	Vespoid	Vespoid Greaves Beta	Legs	Beta	High Rank	5	2	1	NA	32	-2	1	1	1	2	Survival Expert	1	NA	NA	NA	NA	Neopteron Camouflage	NA
+322	Ajarakan	Ajarakan Helm Alpha	Helm	Alpha	High Rank	6	1	NA	NA	48	3	-3	1	-2	0	Resentment	2	Bombardier	1	NA	NA	Fortifying Pelt	NA
+323	Ajarakan	Ajarakan Mail Alpha	Chest	Alpha	High Rank	6	1	NA	NA	48	3	-3	1	-2	0	Resentment	2	Blast Resistance	1	NA	NA	Fortifying Pelt	NA
+324	Ajarakan	Ajarakan Vambraces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	48	3	-3	1	-2	0	Bombardier	2	Partbreaker	1	NA	NA	Fortifying Pelt	NA
+325	Ajarakan	Ajarakan Coil Alpha	Waist	Alpha	High Rank	6	1	NA	NA	48	3	-3	1	-2	0	Blast Resistance	2	Partbreaker	1	NA	NA	Fortifying Pelt	NA
+326	Ajarakan	Ajarakan Greaves Alpha	Legs	Alpha	High Rank	6	NA	NA	NA	48	3	-3	1	-2	0	Partbreaker	2	Resentment	1	NA	NA	Fortifying Pelt	NA
+327	Ajarakan	Ajarakan Helm Beta	Helm	Beta	High Rank	6	2	1	NA	48	3	-3	1	-2	0	Resentment	1	Bombardier	1	NA	NA	Alluring Pelt	NA
+328	Ajarakan	Ajarakan Mail Beta	Chest	Beta	High Rank	6	2	NA	NA	48	3	-3	1	-2	0	Resentment	2	NA	NA	NA	NA	Alluring Pelt	NA
+329	Ajarakan	Ajarakan Vambraces Beta	Arms	Beta	High Rank	6	2	1	NA	48	3	-3	1	-2	0	Partbreaker	1	Bombardier	1	NA	NA	Alluring Pelt	NA
+330	Ajarakan	Ajarakan Coil Beta	Waist	Beta	High Rank	6	2	NA	NA	48	3	-3	1	-2	0	Partbreaker	2	Blast Resistance	1	NA	NA	Alluring Pelt	NA
+331	Ajarakan	Ajarakan Greaves Beta	Legs	Beta	High Rank	6	1	1	NA	48	3	-3	1	-2	0	Partbreaker	2	NA	NA	NA	NA	Alluring Pelt	NA
+332	Artian	Artian Helm Alpha	Helm	Alpha	High Rank	6	2	1	NA	44	1	-2	-2	2	3	Flayer	1	Earplugs	1	NA	NA	Guardian's Protection	NA
+333	Artian	Artian Mail Alpha	Chest	Alpha	High Rank	6	2	1	1	44	1	-2	-2	2	3	Flayer	1	Adaptability	1	NA	NA	Guardian's Protection	NA
+334	Artian	Artian Vambraces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	1	-2	-2	2	3	Blight Resistance	2	Flayer	1	NA	NA	Guardian's Protection	NA
+335	Artian	Artian Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	1	-2	-2	2	3	Windproof	2	Flayer	1	NA	NA	Guardian's Protection	NA
+336	Artian	Artian Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	1	-2	-2	2	3	Tremor Resistance	2	Flayer	1	NA	NA	Guardian's Protection	NA
+337	Azuz	Azuz Headdress Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	4	1	1	1	1	Maximum Might	2	NA	NA	NA	NA	Imparted Wisdom	NA
+338	Azuz	Azuz Apron Alpha	Chest	Alpha	High Rank	6	1	1	NA	44	4	1	1	1	1	Heroics	3	NA	NA	NA	NA	Imparted Wisdom	NA
+339	Azuz	Azuz Pants Alpha	Legs	Alpha	High Rank	6	2	1	1	44	4	1	1	1	1	Geologist	3	NA	NA	NA	NA	Imparted Wisdom	NA
+340	Battle	Battle Helm Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	2	-1	-1	0	0	Stamina Surge	2	NA	NA	NA	NA	Imparted Wisdom	NA
+341	Battle	Battle Mail Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	2	-1	-1	0	0	Hunger Resistance	3	Sleep Resistance	1	NA	NA	Imparted Wisdom	NA
+342	Battle	Battle Vambraces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	2	-1	-1	0	0	Free Meal	3	NA	NA	NA	NA	Imparted Wisdom	NA
+343	Battle	Battle Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	2	-1	-1	0	0	Item Prolonger	3	Bind Resistance	1	NA	NA	Imparted Wisdom	NA
+344	Battle	Battle Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	2	-1	-1	0	0	Marathon Runner	3	Constitution	1	NA	NA	Imparted Wisdom	NA
+345	Blango	Blango Helm Alpha	Helm	Alpha	High Rank	6	1	1	NA	48	-4	1	0	4	0	Wide-Range	2	Counterstrike	1	NA	NA	Fortifying Pelt	Blangonga's Spirit
+346	Blango	Blango Mail Alpha	Chest	Alpha	High Rank	6	NA	NA	NA	48	-4	1	0	4	0	Agitator	2	Item Prolonger	1	NA	NA	Fortifying Pelt	Blangonga's Spirit
+347	Blango	Blango Vambraces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	48	-4	1	0	4	0	Palico Rally	2	Counterstrike	1	NA	NA	Fortifying Pelt	Blangonga's Spirit
+348	Blango	Blango Coil Alpha	Waist	Alpha	High Rank	6	1	NA	NA	48	-4	1	0	4	0	Agitator	2	Wide-Range	1	NA	NA	Fortifying Pelt	Blangonga's Spirit
+349	Blango	Blango Greaves Alpha	Legs	Alpha	High Rank	6	1	1	NA	48	-4	1	0	4	0	Agitator	1	Counterstrike	1	NA	NA	Fortifying Pelt	Blangonga's Spirit
+350	Blango	Blango Helm Beta	Helm	Beta	High Rank	6	2	1	1	48	-4	1	0	4	0	Wide-Range	2	NA	NA	NA	NA	Alluring Pelt	Blangonga's Spirit
+351	Blango	Blango Mail Beta	Chest	Beta	High Rank	6	2	NA	NA	48	-4	1	0	4	0	Agitator	2	NA	NA	NA	NA	Alluring Pelt	Blangonga's Spirit
+352	Blango	Blango Vambraces Beta	Arms	Beta	High Rank	6	2	2	NA	48	-4	1	0	4	0	Counterstrike	1	NA	NA	NA	NA	Alluring Pelt	Blangonga's Spirit
+353	Blango	Blango Coil Beta	Waist	Beta	High Rank	6	1	1	NA	48	-4	1	0	4	0	Agitator	2	NA	NA	NA	NA	Alluring Pelt	Blangonga's Spirit
+354	Blango	Blango Greaves Beta	Legs	Beta	High Rank	6	2	2	NA	48	-4	1	0	4	0	Agitator	1	NA	NA	NA	NA	Alluring Pelt	Blangonga's Spirit
+355	Butterfly	Butterfly Vertex Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Constitution	1	Evade Window	1	Evade Extender	1	Imparted Wisdom	NA
+356	Butterfly	Butterfly Thorax Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Constitution	1	Evade Window	1	Evade Extender	1	Imparted Wisdom	NA
+357	Butterfly	Butterfly Brachia Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Recovery Speed	2	Constitution	1	Evade Window	1	Imparted Wisdom	NA
+358	Butterfly	Butterfly Elytra Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Constitution	1	Evade Window	1	Evade Extender	1	Imparted Wisdom	NA
+359	Butterfly	Butterfly Crura Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Recovery Up	2	Constitution	1	Evade Window	1	Imparted Wisdom	NA
+360	Commission	Commission Helm Alpha	Helm	Alpha	High Rank	6	1	NA	NA	44	2	2	0	0	0	Agitator	1	Maximum Might	1	NA	NA	NA	NA
+361	Commission	Commission Mail Alpha	Chest	Alpha	High Rank	6	1	NA	NA	44	2	2	0	0	0	Agitator	1	Divine Blessing	2	NA	NA	NA	NA
+362	Commission	Commission Vambraces Alpha	Arms	Alpha	High Rank	6	1	NA	NA	44	2	2	0	0	0	Agitator	1	Quick Sheathe	2	NA	NA	NA	NA
+363	Commission	Commission Coil Alpha	Waist	Alpha	High Rank	6	1	NA	NA	44	2	2	0	0	0	Agitator	1	Tool Specialist	1	NA	NA	NA	NA
+364	Commission	Commission Greaves Alpha	Legs	Alpha	High Rank	6	1	NA	NA	44	2	2	0	0	0	Agitator	1	Earplugs	1	NA	NA	NA	NA
+365	Death Stench	Death Stench Brain Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	3	2	-2	3	4	Resentment	1	Ambush	1	NA	NA	Imparted Wisdom	NA
+366	Death Stench	Death Stench Muscle Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	3	2	-2	3	4	Resentment	1	Ambush	1	NA	NA	Imparted Wisdom	NA
+367	Death Stench	Death Stench Grip Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	3	2	-2	3	4	Resentment	1	Ambush	1	NA	NA	Imparted Wisdom	NA
+368	Death Stench	Death Stench Bowels Alpha	Waist	Alpha	High Rank	6	2	1	NA	44	3	2	-2	3	4	Intimidator	2	Resentment	1	NA	NA	Imparted Wisdom	NA
+369	Death Stench	Death Stench Heel Alpha	Legs	Alpha	High Rank	6	2	1	NA	44	3	2	-2	3	4	Stun Resistance	2	Resentment	1	NA	NA	Imparted Wisdom	NA
+370	Doshaguma	Doshaguma Helm Alpha	Helm	Alpha	High Rank	6	2	1	NA	48	-3	2	-1	-1	4	Free Meal	2	Stun Resistance	1	NA	NA	Fortifying Pelt	Doshaguma's Might
+371	Doshaguma	Doshagumask Alpha	Helm	Alpha	High Rank	6	NA	NA	NA	48	-3	2	-1	-1	4	Stamina Surge	1	Recovery Up	1	Latent Power	2	Fortifying Pelt	Doshaguma's Might
+372	Doshaguma	Doshaguma Mail Alpha	Chest	Alpha	High Rank	6	1	NA	NA	48	-3	2	-1	-1	4	Latent Power	1	Stamina Surge	1	NA	NA	Fortifying Pelt	Doshaguma's Might
+373	Doshaguma	Doshaguma Braces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	48	-3	2	-1	-1	4	Stun Resistance	2	Stamina Surge	1	NA	NA	Fortifying Pelt	Doshaguma's Might
+374	Doshaguma	Doshaguma Coil Alpha	Waist	Alpha	High Rank	6	1	NA	NA	48	-3	2	-1	-1	4	Latent Power	2	NA	NA	NA	NA	Fortifying Pelt	Doshaguma's Might
+375	Doshaguma	Doshaguma Greaves Alpha	Legs	Alpha	High Rank	6	2	1	NA	48	-3	2	-1	-1	4	Recovery Up	2	Free Meal	1	NA	NA	Fortifying Pelt	Doshaguma's Might
+376	Doshaguma	Doshaguma Helm Beta	Helm	Beta	High Rank	6	2	1	1	48	-3	2	-1	-1	4	Stun Resistance	1	Free Meal	1	NA	NA	Alluring Pelt	Doshaguma's Might
+377	Doshaguma	Doshaguma Mail Beta	Chest	Beta	High Rank	6	1	1	1	48	-3	2	-1	-1	4	Latent Power	1	NA	NA	NA	NA	Alluring Pelt	Doshaguma's Might
+378	Doshaguma	Doshaguma Braces Beta	Arms	Beta	High Rank	6	2	1	NA	48	-3	2	-1	-1	4	Stun Resistance	1	Stamina Surge	1	NA	NA	Alluring Pelt	Doshaguma's Might
+379	Doshaguma	Doshaguma Coil Beta	Waist	Beta	High Rank	6	2	2	NA	48	-3	2	-1	-1	4	Latent Power	1	NA	NA	NA	NA	Alluring Pelt	Doshaguma's Might
+380	Doshaguma	Doshaguma Greaves Beta	Legs	Beta	High Rank	6	2	1	1	48	-3	2	-1	-1	4	Recovery Up	1	Free Meal	1	NA	NA	Alluring Pelt	Doshaguma's Might
+381	Dreamwalker	Dreamwalker Helm Alpha	Helm	Alpha	High Rank	6	NA	NA	NA	36	-3	2	2	2	2	Flayer	1	Wide-Range	2	Ambush	1	Carving Master	Dreamspell Boon
+382	Dreamwalker	Dreamwalker Mail Alpha	Chest	Alpha	High Rank	6	2	NA	NA	36	-3	2	2	2	2	Sleep Resistance	1	Wide-Range	1	Flayer	1	Carving Master	Dreamspell Boon
+383	Dreamwalker	Dreamwalker Braces Alpha	Arms	Alpha	High Rank	6	2	1	NA	36	-3	2	2	2	2	Flayer	1	Sleep Resistance	1	NA	NA	Carving Master	Dreamspell Boon
+384	Dreamwalker	Dreamwalker Coil Alpha	Waist	Alpha	High Rank	6	NA	NA	NA	36	-3	2	2	2	2	Flayer	1	Ambush	2	NA	NA	Carving Master	Dreamspell Boon
+385	Dreamwalker	Dreamwalker Greaves Alpha	Legs	Alpha	High Rank	6	1	1	NA	36	-3	2	2	2	2	Flayer	1	Ambush	2	NA	NA	Carving Master	Dreamspell Boon
+386	Earring of Dedication	Earring of Dedication Alpha	Helm	Alpha	High Rank	6	2	NA	NA	48	0	0	0	0	0	Wide-Range	4	NA	NA	NA	NA	Glory's Favor	NA
+387	G Doshaguma	G Doshaguma Helm Alpha	Helm	Alpha	High Rank	6	2	1	NA	48	-3	2	-1	-2	2	Hunger Resistance	2	Heroics	1	NA	NA	Guardian's Pulse	Doshaguma's Might
+388	G Doshaguma	G Doshaguma Mail Alpha	Chest	Alpha	High Rank	6	2	1	NA	48	-3	2	-1	-2	2	Constitution	2	Iron Skin	1	NA	NA	Guardian's Pulse	NA
+389	G Doshaguma	G Doshaguma Braces Alpha	Arms	Alpha	High Rank	6	1	1	1	48	-3	2	-1	-2	2	Iron Skin	2	Heroics	1	NA	NA	Guardian's Pulse	NA
+390	G Doshaguma	G Doshaguma Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	48	-3	2	-1	-2	2	Heroics	2	Hunger Resistance	1	NA	NA	Guardian's Pulse	NA
+391	G Doshaguma	G Doshaguma Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	48	-3	2	-1	-2	2	Constitution	2	Heroics	1	NA	NA	Guardian's Pulse	NA
+392	G Doshaguma	G Doshaguma Helm Beta	Helm	Beta	High Rank	6	2	2	1	48	-3	2	-1	-2	2	Heroics	1	NA	NA	NA	NA	Guardian's Protection	NA
+393	G Doshaguma	G Doshaguma Mail Beta	Chest	Beta	High Rank	6	2	2	NA	48	-3	2	-1	-2	2	Constitution	2	NA	NA	NA	NA	Guardian's Protection	NA
+394	G Doshaguma	G Doshaguma Braces Beta	Arms	Beta	High Rank	6	2	2	1	48	-3	2	-1	-2	2	Heroics	1	NA	NA	NA	NA	Guardian's Protection	NA
+395	G Doshaguma	G Doshaguma Coil Beta	Waist	Beta	High Rank	6	2	1	NA	48	-3	2	-1	-2	2	Heroics	2	NA	NA	NA	NA	Guardian's Protection	NA
+396	G Doshaguma	G Doshaguma Greaves Beta	Legs	Beta	High Rank	6	2	1	NA	48	-3	2	-1	-2	2	Constitution	1	Heroics	1	NA	NA	Guardian's Protection	NA
+397	G Ebony	G Ebony Helm Alpha	Helm	Alpha	High Rank	6	NA	NA	NA	48	-2	-3	-2	-2	4	Burst	2	Earplugs	1	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+398	G Ebony	G Ebony Mail Alpha	Chest	Alpha	High Rank	6	2	NA	NA	48	-2	-3	-2	-2	4	Bleeding Resistance	2	Earplugs	1	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+399	G Ebony	G Ebony Braces Alpha	Arms	Alpha	High Rank	6	NA	NA	NA	48	-2	-3	-2	-2	4	Burst	2	Divine Blessing	1	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+400	G Ebony	G Ebony Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	48	-2	-3	-2	-2	4	Burst	1	Bleeding Resistance	1	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+401	G Ebony	G Ebony Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	48	-2	-3	-2	-2	4	Divine Blessing	2	Earplugs	1	NA	NA	Guardian's Pulse	Ebony Odogaron's Power
+402	G Ebony	G Ebony Helm Beta	Helm	Beta	High Rank	6	2	NA	NA	48	-2	-3	-2	-2	4	Burst	2	NA	NA	NA	NA	Guardian's Protection	Ebony Odogaron's Power
+403	G Ebony	G Ebony Mail Beta	Chest	Beta	High Rank	6	2	2	NA	48	-2	-3	-2	-2	4	Earplugs	1	NA	NA	NA	NA	Guardian's Protection	Ebony Odogaron's Power
+404	G Ebony	G Ebony Braces Beta	Arms	Beta	High Rank	6	2	1	NA	48	-2	-3	-2	-2	4	Burst	1	Divine Blessing	1	NA	NA	Guardian's Protection	Ebony Odogaron's Power
+405	G Ebony	G Ebony Coil Beta	Waist	Beta	High Rank	6	2	1	NA	48	-2	-3	-2	-2	4	Burst	1	NA	NA	NA	NA	Guardian's Protection	Ebony Odogaron's Power
+406	G Ebony	G Ebony Greaves Beta	Legs	Beta	High Rank	6	2	1	NA	48	-2	-3	-2	-2	4	Divine Blessing	1	Earplugs	1	NA	NA	Guardian's Protection	Ebony Odogaron's Power
+407	G Fulgur	G Fulgur Helm Alpha	Helm	Alpha	High Rank	6	NA	NA	NA	48	-1	-1	2	-3	-2	Agitator	2	Coalescence	1	NA	NA	Guardian's Pulse	Fulgur Anjanath's Will
+408	G Fulgur	G Fulgur Mail Alpha	Chest	Alpha	High Rank	6	2	NA	NA	48	-1	-1	2	-3	-2	Maximum Might	1	Coalescence	1	NA	NA	Guardian's Pulse	Fulgur Anjanath's Will
+409	G Fulgur	G Fulgur Vambraces Alpha	Arms	Alpha	High Rank	6	1	NA	NA	48	-1	-1	2	-3	-2	Agitator	1	Maximum Might	1	NA	NA	Guardian's Pulse	Fulgur Anjanath's Will
+410	G Fulgur	G Fulgur Coil Alpha	Waist	Alpha	High Rank	6	1	1	NA	48	-1	-1	2	-3	-2	Maximum Might	1	Stamina Surge	1	NA	NA	Guardian's Pulse	Fulgur Anjanath's Will
+411	G Fulgur	G Fulgur Greaves Alpha	Legs	Alpha	High Rank	6	1	NA	NA	48	-1	-1	2	-3	-2	Stamina Surge	2	Coalescence	1	NA	NA	Guardian's Pulse	Fulgur Anjanath's Will
+412	G Fulgur	G Fulgur Helm Beta	Helm	Beta	High Rank	6	2	NA	NA	48	-1	-1	2	-3	-2	Agitator	2	NA	NA	NA	NA	Guardian's Protection	Fulgur Anjanath's Will
+413	G Fulgur	G Fulgur Mail Beta	Chest	Beta	High Rank	6	2	1	1	48	-1	-1	2	-3	-2	Maximum Might	1	NA	NA	NA	NA	Guardian's Protection	Fulgur Anjanath's Will
+414	G Fulgur	G Fulgur Vambraces Beta	Arms	Beta	High Rank	6	2	2	NA	48	-1	-1	2	-3	-2	Maximum Might	1	NA	NA	NA	NA	Guardian's Protection	Fulgur Anjanath's Will
+415	G Fulgur	G Fulgur Coil Beta	Waist	Beta	High Rank	6	2	2	NA	48	-1	-1	2	-3	-2	Stamina Surge	1	NA	NA	NA	NA	Guardian's Protection	Fulgur Anjanath's Will
+416	G Fulgur	G Fulgur Greaves Beta	Legs	Beta	High Rank	6	2	1	NA	48	-1	-1	2	-3	-2	Stamina Surge	1	Coalescence	1	NA	NA	Guardian's Protection	Fulgur Anjanath's Will
+417	G Rathalos	G Rathalos Helm Alpha	Helm	Alpha	High Rank	6	1	1	NA	48	3	1	-2	1	-5	Survival Expert	2	Weakness Exploit	1	NA	NA	Guardian's Pulse	Rathalos's Flare
+418	G Rathalos	G Rathalos Mail Alpha	Chest	Alpha	High Rank	6	1	NA	NA	48	3	1	-2	1	-5	Intimidator	2	Weakness Exploit	1	NA	NA	Guardian's Pulse	Rathalos's Flare
+419	G Rathalos	G Rathalos Vambraces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	48	3	1	-2	1	-5	Weakness Exploit	1	Survival Expert	1	Intimidator	1	Guardian's Pulse	Rathalos's Flare
+420	G Rathalos	G Rathalos Coil Alpha	Waist	Alpha	High Rank	6	1	1	NA	48	3	1	-2	1	-5	Weakness Exploit	1	Windproof	1	NA	NA	Guardian's Pulse	Rathalos's Flare
+421	G Rathalos	G Rathalos Greaves Alpha	Legs	Alpha	High Rank	6	1	NA	NA	48	3	1	-2	1	-5	Windproof	2	Weakness Exploit	1	NA	NA	Guardian's Pulse	Rathalos's Flare
+422	G Rathalos	G Rathalos Helm Beta	Helm	Beta	High Rank	6	2	2	NA	48	3	1	-2	1	-5	Weakness Exploit	1	NA	NA	NA	NA	Guardian's Protection	Rathalos's Flare
+423	G Rathalos	G Rathalos Mail Beta	Chest	Beta	High Rank	6	2	NA	NA	48	3	1	-2	1	-5	Weakness Exploit	1	Intimidator	1	NA	NA	Guardian's Protection	Rathalos's Flare
+424	G Rathalos	G Rathalos Vambraces Beta	Arms	Beta	High Rank	6	2	1	1	48	3	1	-2	1	-5	Weakness Exploit	1	NA	NA	NA	NA	Guardian's Protection	Rathalos's Flare
+425	G Rathalos	G Rathalos Coil Beta	Waist	Beta	High Rank	6	2	2	1	48	3	1	-2	1	-5	Windproof	1	NA	NA	NA	NA	Guardian's Protection	Rathalos's Flare
+426	G Rathalos	G Rathalos Greaves Beta	Legs	Beta	High Rank	6	2	NA	NA	48	3	1	-2	1	-5	Weakness Exploit	1	Windproof	1	NA	NA	Guardian's Protection	Rathalos's Flare
+427	G Seikret	G Seikret Coil Alpha	Waist	Alpha	High Rank	6	1	NA	NA	44	0	0	4	0	-3	Earplugs	2	Jump Master	1	NA	NA	Guardian's Pulse	NA
+428	G Seikret	G Seikret Coil Beta	Waist	Beta	High Rank	6	2	1	NA	44	0	0	4	0	-3	Earplugs	1	Jump Master	1	NA	NA	Guardian's Protection	NA
+429	Gajau	Gajau Boots Alpha	Legs	Alpha	High Rank	6	1	1	1	44	0	5	0	0	0	Water Resistance	1	Outdoorsman	1	NA	NA	Flexible Leathercraft	NA
+430	Gelidron	Gelidron Mask Alpha	Helm	Alpha	High Rank	6	3	1	1	66	4	2	-4	-2	0	Speed Eating	3	Hunger Resistance	3	Free Meal	3	Flexible Leathercraft	NA
+431	Gelidron	Gelidron Backpack Alpha	Chest	Alpha	High Rank	6	3	1	NA	66	2	2	-4	-2	0	Free Meal	2	Speed Eating	1	Hunger Resistance	2	Hunter Gatherer	NA
+432	Gravios	Gravios Helm Alpha	Helm	Alpha	High Rank	6	2	1	NA	52	4	-3	1	0	-2	Peak Performance	1	Tremor Resistance	1	NA	NA	Scaling Prowess	Gravios's Protection
+433	Gravios	Gravios Mail Alpha	Chest	Alpha	High Rank	6	2	1	NA	52	4	-3	1	0	-2	Recovery Speed	2	Peak Performance	1	NA	NA	Scaling Prowess	Gravios's Protection
+434	Gravios	Gravios Vambraces Alpha	Arms	Alpha	High Rank	6	1	NA	NA	52	4	-3	1	0	-2	Peak Performance	2	Flinch Free	1	NA	NA	Scaling Prowess	Gravios's Protection
+435	Gravios	Gravios Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	52	4	-3	1	0	-2	Flinch Free	2	Peak Performance	1	NA	NA	Scaling Prowess	Gravios's Protection
+436	Gravios	Gravios Greaves Alpha	Legs	Alpha	High Rank	6	2	1	NA	52	4	-3	1	0	-2	Tremor Resistance	2	Recovery Speed	1	NA	NA	Scaling Prowess	Gravios's Protection
+437	Gravios	Gravios Helm Beta	Helm	Beta	High Rank	6	2	2	NA	52	4	-3	1	0	-2	Peak Performance	1	NA	NA	NA	NA	Scale Layering	Gravios's Protection
+438	Gravios	Gravios Mail Beta	Chest	Beta	High Rank	6	2	2	NA	52	4	-3	1	0	-2	Peak Performance	1	Recovery Speed	1	NA	NA	Scale Layering	Gravios's Protection
+439	Gravios	Gravios Vambraces Beta	Arms	Beta	High Rank	6	2	NA	NA	52	4	-3	1	0	-2	Peak Performance	2	NA	NA	NA	NA	Scale Layering	Gravios's Protection
+440	Gravios	Gravios Coil Beta	Waist	Beta	High Rank	6	2	1	NA	52	4	-3	1	0	-2	Peak Performance	1	Flinch Free	1	NA	NA	Scale Layering	Gravios's Protection
+441	Gravios	Gravios Greaves Beta	Legs	Beta	High Rank	6	2	2	NA	52	4	-3	1	0	-2	Recovery Speed	1	Tremor Resistance	1	NA	NA	Scale Layering	Gravios's Protection
+442	Half Rim	Half Rim Glasses Alpha	Helm	Alpha	High Rank	6	1	NA	NA	48	2	2	2	2	2	Wide-Range	5	NA	NA	NA	NA	NA	NA
+443	Hawkheart	Hawkheart Jacket Alpha	Chest	Alpha	High Rank	6	2	NA	NA	48	0	0	0	0	0	Constitution	4	Quick Sheathe	2	NA	NA	NA	NA
+444	High Metal	High Metal Helm Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	0	-1	-2	3	0	??	NA	NA	NA	NA	NA	Imparted Wisdom	NA
+445	High Metal	High Metal Mail Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	0	-1	-2	3	0	??	NA	NA	NA	NA	NA	Imparted Wisdom	NA
+446	High Metal	High Metal Braces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	0	-1	-2	3	0	??	NA	NA	NA	NA	NA	Imparted Wisdom	NA
+447	High Metal	High Metal Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	0	-1	-2	3	0	??	NA	NA	NA	NA	NA	Imparted Wisdom	NA
+448	High Metal	High Metal Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	0	-1	-2	3	0	??	NA	NA	NA	NA	NA	Imparted Wisdom	NA
+449	Ingot	Ingot Helm Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	-2	0	3	-1	0	Divine Blessing	2	Resentment	1	NA	NA	NA	NA
+450	Ingot	Ingot Mail Alpha	Chest	Alpha	High Rank	6	1	1	NA	44	-2	0	3	-1	0	Resentment	1	Windproof	1	NA	NA	NA	NA
+451	Ingot	Ingot Vambraces Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	-2	0	3	-1	0	Stun Resistance	2	Resentment	1	NA	NA	NA	NA
+452	Ingot	Ingot Coil Alpha	Waist	Alpha	High Rank	6	1	1	1	44	-2	0	3	-1	0	Resentment	1	Divine Blessing	1	NA	NA	NA	NA
+453	Ingot	Ingot Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	-2	0	3	-1	0	Resentment	1	Windproof	1	NA	NA	NA	NA
+454	King Beetle	King Beetle Vertex Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Heroics	1	Foray	1	Sleep Resistance	1	Imparted Wisdom	NA
+455	King Beetle	King Beetle Thorax Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Heroics	1	Foray	1	Paralysis Resistance	1	Imparted Wisdom	NA
+456	King Beetle	King Beetle Brachia Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Heroics	1	Foray	1	Poison Resistance	1	Imparted Wisdom	NA
+457	King Beetle	King Beetle Elytra Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Heroics	1	Flayer	1	Paralysis Resistance	1	Imparted Wisdom	NA
+458	King Beetle	King Beetle Crura Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	-1	-1	2	0	2	Heroics	1	Flayer	1	Poison Resistance	1	Imparted Wisdom	NA
+459	Kunafa	Kunafa Headgear Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	1	1	4	1	1	Wide-Range	2	Palico Rally	1	NA	NA	Imparted Wisdom	NA
+460	Kunafa	Kunafa Cloak Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	1	1	4	1	1	Free Meal	2	Palico Rally	1	NA	NA	Imparted Wisdom	NA
+461	Kunafa	Kunafa Sash Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	1	1	4	1	1	Speed Eating	2	Palico Rally	1	NA	NA	Imparted Wisdom	NA
+462	Kunafa	Kunafa Chaps Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	1	1	4	1	1	Wide-Range	2	Palico Rally	1	NA	NA	Imparted Wisdom	NA
+463	Lovely	Lovely Shades Alpha	Helm	Alpha	High Rank	6	1	NA	NA	48	4	0	4	0	2	Mushroomancer	3	NA	NA	NA	NA	NA	NA
+464	Melahoa	Melahoa Hat Alpha	Helm	Alpha	High Rank	6	2	NA	NA	44	0	1	3	0	0	Survival Expert	3	Poison Resistance	1	NA	NA	Imparted Wisdom	NA
+465	Melahoa	Melahoa Jacket Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	0	1	3	0	0	Tool Specialist	3	NA	NA	NA	NA	Imparted Wisdom	NA
+466	Melahoa	Melahoa Branch Alpha	Arms	Alpha	High Rank	6	2	NA	NA	44	0	1	3	0	0	Recovery Speed	3	Paralysis Resistance	1	NA	NA	Imparted Wisdom	NA
+467	Melahoa	Melahoa Folia Alpha	Waist	Alpha	High Rank	6	2	NA	NA	44	0	1	3	0	0	Recovery Up	3	Bleeding Resistance	1	NA	NA	Imparted Wisdom	NA
+468	Melahoa	Melahoa Roots Alpha	Legs	Alpha	High Rank	6	2	NA	NA	44	0	1	3	0	0	Mushroomancer	3	NA	NA	NA	NA	Imparted Wisdom	NA
+469	Mizutsune	Mizutsune Helm Alpha	Helm	Alpha	High Rank	6	3	NA	NA	48	0	2	-3	1	-1	Evade Extender	1	Aquatic-Oilsilt Mobility	2	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+470	Mizutsune	Mizutsune Mail Alpha	Chest	Alpha	High Rank	6	1	2	NA	48	0	2	-3	1	-1	Constitution	1	Burst	2	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+471	Mizutsune	Mizutsune Braces Alpha	Arms	Alpha	High Rank	6	1	NA	NA	48	0	2	-3	1	-1	Evade Extender	2	Evade Window	2	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+472	Mizutsune	Mizutsune Coil Alpha	Waist	Alpha	High Rank	6	2	1	NA	48	0	2	-3	1	-1	Constitution	2	Burst	1	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+473	Mizutsune	Mizutsune Greaves Alpha	Legs	Alpha	High Rank	6	1	NA	NA	48	0	2	-3	1	-1	Peak Performance	1	Burst	2	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+474	Mizutsune	Mizutsune Helm Beta	Helm	Beta	High Rank	6	3	2	NA	48	0	2	-3	1	-1	Aquatic-Oilsilt Mobility	2	NA	NA	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+475	Mizutsune	Mizutsune Mail Beta	Chest	Beta	High Rank	6	2	2	NA	48	0	2	-3	1	-1	Constitution	1	Burst	1	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+476	Mizutsune	Mizutsune Braces Beta	Arms	Beta	High Rank	6	3	NA	NA	48	0	2	-3	1	-1	Evade Extender	1	Evade Window	2	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+477	Mizutsune	Mizutsune Coil Beta	Waist	Beta	High Rank	6	2	1	NA	48	0	2	-3	1	-1	Constitution	2	NA	NA	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+478	Mizutsune	Mizutsune Greaves Beta	Legs	Beta	High Rank	6	1	NA	NA	48	0	2	-3	1	-1	Burst	2	NA	NA	NA	NA	Mizutsune's Prowess	Mizutsune's Prowess
+479	Rathalos	Rathalos Helm Alpha	Helm	Alpha	High Rank	6	1	1	NA	48	3	1	-2	1	-3	Evade Window	2	Constitution	1	NA	NA	Scaling Prowess	Rathalos's Flare
+480	Rathalos	Rathalos Mail Alpha	Chest	Alpha	High Rank	6	1	NA	NA	48	3	1	-2	1	-3	Adrenaline Rush	2	Constitution	1	NA	NA	Scaling Prowess	Rathalos's Flare
+481	Rathalos	Rathalos Vambraces Alpha	Arms	Alpha	High Rank	6	1	1	NA	48	3	1	-2	1	-3	Constitution	2	Evade Window	1	NA	NA	Scaling Prowess	Rathalos's Flare
+482	Rathalos	Rathalos Coil Alpha	Waist	Alpha	High Rank	6	NA	NA	NA	48	3	1	-2	1	-3	Adrenaline Rush	2	Evade Window	1	NA	NA	Scaling Prowess	Rathalos's Flare
+483	Rathalos	Rathalos Greaves Alpha	Legs	Alpha	High Rank	6	2	NA	NA	48	3	1	-2	1	-3	Evade Window	2	Adrenaline Rush	1	NA	NA	Scaling Prowess	Rathalos's Flare
+484	Rathalos	Rathalos Helm Beta	Helm	Beta	High Rank	6	2	2	NA	48	3	1	-2	1	-3	Constitution	1	Evade Window	1	NA	NA	Scale Layering	Rathalos's Flare
+485	Rathalos	Rathalos Mail Beta	Chest	Beta	High Rank	6	1	1	NA	48	3	1	-2	1	-3	Adrenaline Rush	2	NA	NA	NA	NA	Scale Layering	Rathalos's Flare
+486	Rathalos	Rathalos Vambraces Beta	Arms	Beta	High Rank	6	2	1	1	48	3	1	-2	1	-3	Constitution	2	NA	NA	NA	NA	Scale Layering	Rathalos's Flare
+487	Rathalos	Rathalos Coil Beta	Waist	Beta	High Rank	6	2	NA	NA	48	3	1	-2	1	-3	Adrenaline Rush	2	NA	NA	NA	NA	Scale Layering	Rathalos's Flare
+488	Rathalos	Rathalos Greaves Beta	Legs	Beta	High Rank	6	2	2	1	48	3	1	-2	1	-3	Evade Window	2	NA	NA	NA	NA	Scale Layering	Rathalos's Flare
+489	Sild	Sild Hood Alpha	Helm	Alpha	High Rank	6	2	1	1	44	1	1	1	1	4	Botanist	3	NA	NA	NA	NA	Imparted Wisdom	NA
+490	Sild	Sild Coat Alpha	Chest	Alpha	High Rank	6	2	NA	NA	44	1	1	1	1	4	Wide-Range	4	NA	NA	NA	NA	Imparted Wisdom	NA
+491	Suja	Suja Sash Alpha	Waist	Alpha	High Rank	6	2	1	1	44	1	1	1	4	1	Divine Blessing	3	NA	NA	NA	NA	Imparted Wisdom	NA
+492	Xu Wu	Xu Wu Helm Alpha	Helm	Alpha	High Rank	6	1	NA	NA	48	1	1	1	-3	2	Adrenaline Rush	2	Ambush	1	NA	NA	Flexible Leathercraft	NA
+493	Xu Wu	Xu Wu Mail Alpha	Chest	Alpha	High Rank	6	NA	NA	NA	48	1	1	1	-3	2	Heroics	3	Ambush	1	NA	NA	Flexible Leathercraft	NA
+494	Xu Wu	Xu Wu Vambraces Alpha	Arms	Alpha	High Rank	6	2	1	NA	48	1	1	1	-3	2	Earplugs	2	NA	NA	NA	NA	Flexible Leathercraft	NA
+495	Xu Wu	Xu Wu Coil Alpha	Waist	Alpha	High Rank	6	2	NA	NA	48	1	1	1	-3	2	Heroics	2	Earplugs	1	NA	NA	Flexible Leathercraft	NA
+496	Xu Wu	Xu Wu Greaves Alpha	Legs	Alpha	High Rank	6	2	1	NA	48	1	1	1	-3	2	Adrenaline Rush	1	Ambush	1	NA	NA	Flexible Leathercraft	NA
+497	Xu Wu	Xu Wu Helm Beta	Helm	Beta	High Rank	6	2	1	NA	48	1	1	1	-3	2	Adrenaline Rush	2	NA	NA	NA	NA	Buttery Leathercraft	NA
+498	Xu Wu	Xu Wu Mail Beta	Chest	Beta	High Rank	6	1	1	NA	48	1	1	1	-3	2	Heroics	3	NA	NA	NA	NA	Buttery Leathercraft	NA
+499	Xu Wu	Xu Wu Vambraces Beta	Arms	Beta	High Rank	6	2	2	1	48	1	1	1	-3	2	Earplugs	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+500	Xu Wu	Xu Wu Coil Beta	Waist	Beta	High Rank	6	2	1	1	48	1	1	1	-3	2	Heroics	1	Earplugs	1	NA	NA	Buttery Leathercraft	NA
+501	Xu Wu	Xu Wu Greaves Beta	Legs	Beta	High Rank	6	2	2	1	48	1	1	1	-3	2	Adrenaline Rush	1	NA	NA	NA	NA	Buttery Leathercraft	NA
+502	Dahaad	Dahaad Shardhelm Alpha	Helm	Alpha	High Rank	7	1	NA	NA	60	-3	2	-1	2	-1	Weakness Exploit	1	Agitator	1	NA	NA	Lord's Favor	Jin Dahaad's Revolt
+503	Dahaad	Dahaad Shardmail Alpha	Chest	Alpha	High Rank	7	3	1	NA	60	-3	2	-1	2	-1	Bind Resistance	2	Adaptability	1	NA	NA	Lord's Favor	Jin Dahaad's Revolt
+504	Dahaad	Dahaad Shardbraces Alpha	Arms	Alpha	High Rank	7	NA	NA	NA	60	-3	2	-1	2	-1	Agitator	2	Adaptability	1	NA	NA	Lord's Favor	Jin Dahaad's Revolt
+505	Dahaad	Dahaad Shardcoil Alpha	Waist	Alpha	High Rank	7	1	1	NA	60	-3	2	-1	2	-1	Tremor Resistance	2	Weakness Exploit	1	NA	NA	Lord's Favor	Jin Dahaad's Revolt
+506	Dahaad	Dahaad Shardgreaves Alpha	Legs	Alpha	High Rank	7	1	NA	NA	60	-3	2	-1	2	-1	Agitator	2	Tremor Resistance	1	NA	NA	Lord's Favor	Jin Dahaad's Revolt
+507	Dahaad	Dahaad Shardhelm Beta	Helm	Beta	High Rank	7	2	2	NA	60	-3	2	-1	2	-1	Agitator	1	NA	NA	NA	NA	Lord's Fury	Jin Dahaad's Revolt
+508	Dahaad	Dahaad Shardmail Beta	Chest	Beta	High Rank	7	3	2	NA	60	-3	2	-1	2	-1	Bind Resistance	1	Adaptability	1	NA	NA	Lord's Fury	Jin Dahaad's Revolt
+509	Dahaad	Dahaad Shardbraces Beta	Arms	Beta	High Rank	7	3	NA	NA	60	-3	2	-1	2	-1	Agitator	1	Adaptability	1	NA	NA	Lord's Fury	Jin Dahaad's Revolt
+510	Dahaad	Dahaad Shardcoil Beta	Waist	Beta	High Rank	7	1	1	1	60	-3	2	-1	2	-1	Weakness Exploit	1	Tremor Resistance	1	NA	NA	Lord's Fury	Jin Dahaad's Revolt
+511	Dahaad	Dahaad Shardgreaves Beta	Legs	Beta	High Rank	7	2	NA	NA	60	-3	2	-1	2	-1	Agitator	2	NA	NA	NA	NA	Lord's Fury	Jin Dahaad's Revolt
+512	Damascus	Damascus Helm Alpha	Helm	Alpha	High Rank	7	3	1	NA	56	4	-2	0	0	0	Divine Blessing	2	Wide-Range	1	NA	NA	NA	NA
+513	Damascus	Damascus Mail Alpha	Chest	Alpha	High Rank	7	2	2	NA	56	4	-2	0	0	0	Recovery Up	2	Wide-Range	1	NA	NA	NA	NA
+514	Damascus	Damascus Vambraces Alpha	Arms	Alpha	High Rank	7	3	1	NA	56	4	-2	0	0	0	Wide-Range	1	Divine Blessing	1	NA	NA	NA	NA
+515	Damascus	Damascus Coil Alpha	Waist	Alpha	High Rank	7	3	2	NA	56	4	-2	0	0	0	Wide-Range	1	Recovery Up	1	NA	NA	NA	NA
+516	Damascus	Damascus Greaves Alpha	Legs	Alpha	High Rank	7	3	NA	NA	56	4	-2	0	0	0	Item Prolonger	2	Wide-Range	1	NA	NA	NA	NA
+517	Dober	Dober Helm Alpha	Helm	Alpha	High Rank	7	3	NA	NA	56	-2	0	-1	-1	4	Constitution	1	Stamina Surge	1	NA	NA	NA	NA
+518	Dober	Dober Mail Alpha	Chest	Alpha	High Rank	7	3	2	NA	56	-2	0	-1	-1	4	Constitution	1	Marathon Runner	1	NA	NA	NA	NA
+519	Dober	Dober Vambraces Alpha	Arms	Alpha	High Rank	7	3	NA	NA	56	-2	0	-1	-1	4	Stamina Surge	2	Constitution	1	NA	NA	NA	NA
+520	Dober	Dober Coil Alpha	Waist	Alpha	High Rank	7	3	1	NA	56	-2	0	-1	-1	4	Marathon Runner	2	Constitution	1	NA	NA	NA	NA
+521	Dober	Dober Greaves Alpha	Legs	Alpha	High Rank	7	2	2	NA	56	-2	0	-1	-1	4	Mushroomancer	2	Constitution	1	NA	NA	NA	NA
+522	Duna	Duna Wildmail Alpha	Chest	Alpha	High Rank	7	3	NA	NA	60	-1	4	-3	0	0	Tool Specialist	2	Aquatic-Oilsilt Mobility	1	NA	NA	Lord's Favor	Uth Duna's Cover
+523	Duna	Duna Wildbraces Alpha	Arms	Alpha	High Rank	7	2	1	NA	60	-1	4	-3	0	0	Peak Performance	2	Quick Sheathe	1	NA	NA	Lord's Favor	Uth Duna's Cover
+524	Duna	Duna Wildcoil Alpha	Waist	Alpha	High Rank	7	2	1	NA	60	-1	4	-3	0	0	Peak Performance	2	Aquatic-Oilsilt Mobility	1	NA	NA	Lord's Favor	Uth Duna's Cover
+525	Duna	Duna Wildgreaves Alpha	Legs	Alpha	High Rank	7	3	NA	NA	60	-1	4	-3	0	0	Peak Performance	1	Tool Specialist	1	NA	NA	Lord's Favor	Uth Duna's Cover
+526	Duna	Duna Wildhelm Beta	Helm	Beta	High Rank	7	3	2	NA	60	-1	4	-3	0	0	Tool Specialist	1	Earplugs	1	NA	NA	Lord's Fury	Uth Duna's Cover
+527	Duna	Duna Wildmail Beta	Chest	Beta	High Rank	7	3	1	NA	60	-1	4	-3	0	0	Tool Specialist	2	NA	NA	NA	NA	Lord's Fury	Uth Duna's Cover
+528	Duna	Duna Wildbraces Beta	Arms	Beta	High Rank	7	3	1	1	60	-1	4	-3	0	0	Peak Performance	1	Quick Sheathe	1	NA	NA	Lord's Fury	Uth Duna's Cover
+529	Duna	Duna Wildcoil Beta	Waist	Beta	High Rank	7	3	1	NA	60	-1	4	-3	0	0	Peak Performance	2	NA	NA	NA	NA	Lord's Fury	Uth Duna's Cover
+530	Duna	Duna Wildgreaves Beta	Legs	Beta	High Rank	7	3	1	1	60	-1	4	-3	0	0	Peak Performance	1	NA	NA	NA	NA	Lord's Fury	Uth Duna's Cover
+531	Gore	Gore Helm Alpha	Helm	Alpha	High Rank	7	2	NA	NA	60	-2	3	-1	2	-1	Evade Window	2	Coalescence	1	NA	NA	Scaling Prowess	Gore Magala's Tyranny
+532	Gore	Gore Mail Alpha	Chest	Alpha	High Rank	7	3	NA	NA	60	-2	3	-1	2	-1	Evade Window	2	Antivirus	1	NA	NA	Scaling Prowess	Gore Magala's Tyranny
+533	Gore	Gore Vambraces Alpha	Arms	Alpha	High Rank	7	2	1	NA	60	-2	3	-1	2	-1	Constitution	2	Evade Window	1	NA	NA	Scaling Prowess	Gore Magala's Tyranny
+534	Gore	Gore Coil Alpha	Waist	Alpha	High Rank	7	3	1	NA	60	-2	3	-1	2	-1	Constitution	2	Antivirus	1	NA	NA	Scaling Prowess	Gore Magala's Tyranny
+535	Gore	Gore Greaves Alpha	Legs	Alpha	High Rank	7	3	1	NA	60	-2	3	-1	2	-1	Flinch Free	2	Antivirus	1	NA	NA	Scaling Prowess	Gore Magala's Tyranny
+536	Gore	Gore Helm Beta	Helm	Beta	High Rank	7	3	1	NA	60	-2	3	-1	2	-1	Evade Window	1	Coalescence	1	NA	NA	Scale Layering	Gore Magala's Tyranny
+537	Gore	Gore Mail Beta	Chest	Beta	High Rank	7	3	1	NA	60	-2	3	-1	2	-1	Evade Window	2	NA	NA	NA	NA	Scale Layering	Gore Magala's Tyranny
+538	Gore	Gore Vambraces Beta	Arms	Beta	High Rank	7	2	2	NA	60	-2	3	-1	2	-1	Constitution	1	Evade Window	1	NA	NA	Scale Layering	Gore Magala's Tyranny
+539	Gore	Gore Coil Beta	Waist	Beta	High Rank	7	3	2	NA	60	-2	3	-1	2	-1	Constitution	2	NA	NA	NA	NA	Scale Layering	Gore Magala's Tyranny
+540	Gore	Gore Greaves Beta	Legs	Beta	High Rank	7	3	1	1	60	-2	3	-1	2	-1	Antivirus	1	Flinch Free	1	NA	NA	Scale Layering	Gore Magala's Tyranny
+541	Lagiacrus	Lagiacrus Helm Alpha	Helm	Alpha	High Rank	7	2	1	NA	64	-3	2	4	-1	-2	Maximum Might	2	Latent Power	1	NA	NA	Flexible Leathercraft	Leviathan's Fury
+542	Lagiacrus	Lagiacrus Mail Alpha	Chest	Alpha	High Rank	7	2	1	NA	64	-3	2	4	-1	-2	Weakness Exploit	1	Stamina Surge	1	NA	NA	Flexible Leathercraft	Leviathan's Fury
+543	Lagiacrus	Lagiacrus Braces Alpha	Arms	Alpha	High Rank	7	2	1	NA	64	-3	2	4	-1	-2	Stamina Surge	2	Weakness Exploit	1	Aquatic/Oilsilt Mobility	1	Flexible Leathercraft	Leviathan's Fury
+544	Lagiacrus	Lagiacrus Coil Alpha	Waist	Alpha	High Rank	7	2	1	1	64	-3	2	4	-1	-2	Weakness Exploit	1	Maximum Might	1	Aquatic-Oilsilt Mobility	1	Flexible Leathercraft	Leviathan's Fury
+545	Lagiacrus	Lagiacrus Greaves Alpha	Legs	Alpha	High Rank	7	NA	NA	NA	64	-3	2	4	-1	-2	Weakness Exploit	2	Latent Power	1	Thunder Resistance	1	Flexible Leathercraft	Leviathan's Fury
+546	Lagiacrus	Lagiacrus Helm Beta	Helm	Beta	High Rank	7	3	2	1	64	-3	2	4	-1	-2	Maximum Might	2	NA	NA	NA	NA	Buttery Leathercraft	Leviathan's Fury
+547	Lagiacrus	Lagiacrus Mail Beta	Chest	Beta	High Rank	7	2	2	1	64	-3	2	4	-1	-2	Weakness Exploit	1	Stamina Surge	1	NA	NA	Buttery Leathercraft	Leviathan's Fury
+548	Lagiacrus	Lagiacrus Braces Beta	Arms	Beta	High Rank	7	2	1	NA	64	-3	2	4	-1	-2	Stamina Surge	2	Weakness Exploit	1	NA	NA	Buttery Leathercraft	Leviathan's Fury
+549	Lagiacrus	Lagiacrus Coil Beta	Waist	Beta	High Rank	7	2	2	1	64	-3	2	4	-1	-2	Weakness Exploit	1	Maximum Might	1	NA	NA	Buttery Leathercraft	Leviathan's Fury
+550	Lagiacrus	Lagiacrus Greaves Beta	Legs	Beta	High Rank	7	1	NA	NA	64	-3	2	4	-1	-2	Weakness Exploit	2	Latent Power	1	NA	NA	Buttery Leathercraft	Leviathan's Fury
+551	Pinion	Pinion Necklace Alpha	Chest	Alpha	High Rank	7	NA	NA	NA	60	0	0	0	0	0	Heroics	2	Agitator	1	NA	NA	NA	NA
+552	Regios	Regios Helm Alpha	Helm	Alpha	High Rank	7	3	NA	NA	64	4	0	-3	-2	0	Adrenaline Rush	1	Counterstrike	1	Bleeding Resistance	1	Scaling Prowess	Seregios's Tenacity
+553	Regios	Regios Mail Alpha	Chest	Alpha	High Rank	7	1	NA	NA	64	4	0	-3	-2	0	Evade Window	2	Agitator	1	Counterstrike	1	Scaling Prowess	Seregios's Tenacity
+554	Regios	Regios Vambraces Alpha	Arms	Alpha	High Rank	7	2	NA	NA	64	4	0	-3	-2	0	Adrenaline Rush	2	Evade Extender	1	NA	NA	Scaling Prowess	Seregios's Tenacity
+555	Regios	Regios Coil Alpha	Waist	Alpha	High Rank	7	2	NA	NA	64	4	0	-3	-2	0	Evade Window	2	Agitator	1	Bleeding Resistance	1	Scaling Prowess	Seregios's Tenacity
+556	Regios	Regios Greaves Alpha	Legs	Alpha	High Rank	7	NA	NA	NA	64	4	0	-3	-2	0	Adrenaline Rush	2	Agitator	1	Bleeding Resistance	1	Scaling Prowess	Seregios's Tenacity
+557	Regios	Regios Helm Beta	Helm	Beta	High Rank	7	3	1	1	64	4	0	-3	-2	0	Adrenaline Rush	1	Bleeding Resistance	1	NA	NA	Scale Layering	Seregios's Tenacity
+558	Regios	Regios Mail Beta	Chest	Beta	High Rank	7	2	1	NA	64	4	0	-3	-2	0	Evade Window	2	Agitator	1	NA	NA	Scale Layering	Seregios's Tenacity
+559	Regios	Regios Vambraces Beta	Arms	Beta	High Rank	7	3	1	NA	64	4	0	-3	-2	0	Adrenaline Rush	2	NA	NA	NA	NA	Scale Layering	Seregios's Tenacity
+560	Regios	Regios Coil Beta	Waist	Beta	High Rank	7	3	1	1	64	4	0	-3	-2	0	Agitator	1	Evade Window	1	NA	NA	Scale Layering	Seregios's Tenacity
+561	Regios	Regios Greaves Beta	Legs	Beta	High Rank	7	1	NA	NA	64	4	0	-3	-2	0	Adrenaline Rush	2	Agitator	1	NA	NA	Scale Layering	Seregios's Tenacity
+562	Rey	Rey Sandhelm Alpha	Helm	Alpha	High Rank	7	NA	NA	NA	60	0	-2	4	-3	0	Maximum Might	2	Stamina Surge	1	NA	NA	Lord's Favor	Rey Dau's Voltage
+563	Rey	Rey Sandmail Alpha	Chest	Alpha	High Rank	7	1	1	NA	60	0	-2	4	-3	0	Maximum Might	2	Stamina Surge	1	NA	NA	Lord's Favor	Rey Dau's Voltage
+564	Rey	Rey Sandbraces Alpha	Arms	Alpha	High Rank	7	2	NA	NA	60	0	-2	4	-3	0	Latent Power	2	Stun Resistance	1	NA	NA	Lord's Favor	Rey Dau's Voltage
+565	Rey	Rey Sandcoil Alpha	Waist	Alpha	High Rank	7	2	NA	NA	60	0	-2	4	-3	0	Stun Resistance	2	Stamina Surge	1	NA	NA	Lord's Favor	Rey Dau's Voltage
+566	Rey	Rey Sandgreaves Alpha	Legs	Alpha	High Rank	7	3	NA	NA	60	0	-2	4	-3	0	Latent Power	1	Maximum Might	1	NA	NA	Lord's Favor	Rey Dau's Voltage
+567	Rey	Rey Sandhelm Beta	Helm	Beta	High Rank	7	3	NA	NA	60	0	-2	4	-3	0	Latent Power	1	Evade Extender	1	NA	NA	Lord's Fury	Rey Dau's Voltage
+568	Rey	Rey Sandmail Beta	Chest	Beta	High Rank	7	2	1	1	60	0	-2	4	-3	0	Maximum Might	1	Stamina Surge	1	NA	NA	Lord's Fury	Rey Dau's Voltage
+569	Rey	Rey Sandbraces Beta	Arms	Beta	High Rank	7	3	NA	NA	60	0	-2	4	-3	0	Latent Power	2	NA	NA	NA	NA	Lord's Fury	Rey Dau's Voltage
+570	Rey	Rey Sandcoil Beta	Waist	Beta	High Rank	7	3	1	NA	60	0	-2	4	-3	0	Stun Resistance	2	Stamina Surge	1	NA	NA	Lord's Fury	Rey Dau's Voltage
+571	Rey	Rey Sandgreaves Beta	Legs	Beta	High Rank	7	3	1	1	60	0	-2	4	-3	0	Latent Power	1	NA	NA	NA	NA	Lord's Fury	Rey Dau's Voltage
+572	Udra	Udra Mirehelm Alpha	Helm	Alpha	High Rank	7	1	1	NA	60	5	-4	0	1	0	Resentment	2	Counterstrike	1	NA	NA	Lord's Favor	Nu Udra's Mutiny
+573	Udra	Udra Miremail Alpha	Chest	Alpha	High Rank	7	1	1	NA	60	5	-4	0	1	0	Resentment	1	Burst	1	NA	NA	Lord's Favor	Nu Udra's Mutiny
+574	Udra	Udra Mirebraces Alpha	Arms	Alpha	High Rank	7	2	NA	NA	60	5	-4	0	1	0	Counterstrike	2	Speed Eating	1	NA	NA	Lord's Favor	Nu Udra's Mutiny
+575	Udra	Udra Mirecoil Alpha	Waist	Alpha	High Rank	7	2	NA	NA	60	5	-4	0	1	0	Resentment	2	Speed Eating	1	NA	NA	Lord's Favor	Nu Udra's Mutiny
+576	Udra	Udra Miregreaves Alpha	Legs	Alpha	High Rank	7	3	NA	NA	60	5	-4	0	1	0	Windproof	2	Burst	1	NA	NA	Lord's Favor	Nu Udra's Mutiny
+577	Udra	Udra Mirehelm Beta	Helm	Beta	High Rank	7	2	2	NA	60	5	-4	0	1	0	Resentment	1	Counterstrike	1	NA	NA	Lord's Fury	Nu Udra's Mutiny
+578	Udra	Udra Miremail Beta	Chest	Beta	High Rank	7	3	1	1	60	5	-4	0	1	0	Resentment	1	NA	NA	NA	NA	Lord's Fury	Nu Udra's Mutiny
+579	Udra	Udra Mirebraces Beta	Arms	Beta	High Rank	7	3	1	NA	60	5	-4	0	1	0	Speed Eating	2	Counterstrike	1	NA	NA	Lord's Fury	Nu Udra's Mutiny
+580	Udra	Udra Mirecoil Beta	Waist	Beta	High Rank	7	3	NA	NA	60	5	-4	0	1	0	Resentment	2	NA	NA	NA	NA	Lord's Fury	Nu Udra's Mutiny
+581	Udra	Udra Miregreaves Beta	Legs	Beta	High Rank	7	3	1	NA	60	5	-4	0	1	0	Burst	1	Windproof	1	NA	NA	Lord's Fury	Nu Udra's Mutiny
+582	Arkvulcan	Arkvulcan Helm Alpha	Helm	Alpha	High Rank	8	NA	NA	NA	66	2	0	-1	0	-3	Elemental Absorption	2	Convert Element	1	NA	NA	Fortifying Pelt	Arkveld's Hunger
+583	Arkvulcan	Arkvulcan Mail Alpha	Chest	Alpha	High Rank	8	2	NA	NA	66	2	0	-1	0	-3	Weakness Exploit	1	Elemental Absorption	1	NA	NA	Fortifying Pelt	Arkveld's Hunger
+584	Arkvulcan	Arkvulcan Vambraces Alpha	Arms	Alpha	High Rank	8	2	2	NA	66	2	0	-1	0	-3	Convert Element	1	Recovery Speed	1	NA	NA	Fortifying Pelt	Arkveld's Hunger
+585	Arkvulcan	Arkvulcan Coil Alpha	Waist	Alpha	High Rank	8	1	NA	NA	66	2	0	-1	0	-3	Weakness Exploit	2	Recovery Speed	1	NA	NA	Fortifying Pelt	Arkveld's Hunger
+586	Arkvulcan	Arkvulcan Greaves Alpha	Legs	Alpha	High Rank	8	2	1	NA	66	2	0	-1	0	-3	Quick Sheathe	2	Convert Element	1	NA	NA	Fortifying Pelt	Arkveld's Hunger
+587	Arkvulcan	Arkvulcan Helm Beta	Helm	Beta	High Rank	8	3	2	1	66	2	0	-1	0	-3	Convert Element	1	NA	NA	NA	NA	Alluring Pelt	Arkveld's Hunger
+588	Arkvulcan	Arkvulcan Mail Beta	Chest	Beta	High Rank	8	3	2	NA	66	2	0	-1	0	-3	Weakness Exploit	1	NA	NA	NA	NA	Alluring Pelt	Arkveld's Hunger
+589	Arkvulcan	Arkvulcan Vambraces Beta	Arms	Beta	High Rank	8	2	2	1	66	2	0	-1	0	-3	Convert Element	1	NA	NA	NA	NA	Alluring Pelt	Arkveld's Hunger
+590	Arkvulcan	Arkvulcan Coil Beta	Waist	Beta	High Rank	8	1	1	NA	66	2	0	-1	0	-3	Weakness Exploit	2	Recovery Speed	1	NA	NA	Alluring Pelt	Arkveld's Hunger
+591	Arkvulcan	Arkvulcan Greaves Beta	Legs	Beta	High Rank	8	3	1	NA	66	2	0	-1	0	-3	Convert Element	1	Quick Sheathe	1	NA	NA	Alluring Pelt	Arkveld's Hunger
+592	Aviator	Aviator Shades Alpha	Helm	Alpha	High Rank	8	1	1	1	66	2	2	2	2	2	Windproof	3	Tool Specialist	2	NA	NA	NA	NA
+593	Bale	Bale Burgeonet Alpha	Helm	Alpha	High Rank	8	1	1	NA	68	2	0	-2	0	3	Resentment	2	Maximum Might	2	NA	NA	NA	Soul of the Dark Knight
+594	Bale	Bale Cuirass Alpha	Chest	Alpha	High Rank	8	2	NA	NA	68	2	0	-2	0	3	Quick Sheathe	2	Latent Power	2	NA	NA	NA	Soul of the Dark Knight
+595	Bale	Bale Gauntlets Alpha	Arms	Alpha	High Rank	8	3	NA	NA	68	2	0	-2	0	3	Resentment	1	Maximum Might	1	Latent Power	1	NA	Soul of the Dark Knight
+596	Bale	Bale Flanchard Alpha	Waist	Alpha	High Rank	8	3	2	1	68	2	0	-2	0	3	Resentment	1	Constitution	2	NA	NA	NA	Soul of the Dark Knight
+597	Bale	Bale Sollerets Alpha	Legs	Alpha	High Rank	8	2	NA	NA	68	2	0	-2	0	3	Resentment	1	Latent Power	2	NA	NA	NA	Soul of the Dark Knight
+598	Dragonking	Dragonking Eyepatch Alpha	Helm	Alpha	High Rank	8	NA	NA	NA	60	0	0	0	0	0	Counterstrike	3	NA	NA	NA	NA	NA	NA
+599	Duna	Duna Wildhelm Alpha	Helm	Alpha	High Rank	8	2	1	NA	60	-1	4	-3	0	0	Tool Specialist	2	Earplugs	1	NA	NA	Lord's Favor	Uth Duna's Cover
+600	Duna	Duna Wildhelm Gamma	Helm	Gamma	High Rank	8	2	2	NA	68	-1	4	-3	0	0	Peak Performance	2	Earplugs	1	NA	NA	Lord's Soul	Uth Duna's Cover
+601	Duna	Duna Wildmail Gamma	Chest	Gamma	High Rank	8	NA	NA	NA	68	-1	4	-3	0	0	Peak Performance	3	Earplugs	2	NA	NA	Lord's Soul	Uth Duna's Cover
+602	Duna	Duna Wildbraces Gamma	Arms	Gamma	High Rank	8	2	NA	NA	68	-1	4	-3	0	0	Tool Specialist	3	Agitator	1	NA	NA	Lord's Soul	Uth Duna's Cover
+603	Duna	Duna Wildcoil Gamma	Waist	Gamma	High Rank	8	3	3	NA	68	-1	4	-3	0	0	Tool Specialist	2	NA	NA	NA	NA	Lord's Soul	Uth Duna's Cover
+604	Duna	Duna Wildgreaves Gamma	Legs	Gamma	High Rank	8	3	1	1	68	-1	4	-3	0	0	Quick Sheathe	3	Agitator	1	NA	NA	Lord's Soul	Uth Duna's Cover
+605	G Arkveld	G Arkveld Helm Alpha	Helm	Alpha	High Rank	8	1	1	NA	66	2	0	-1	0	-4	Partbreaker	2	Flayer	1	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+606	G Arkveld	G Arkveld Mail Alpha	Chest	Alpha	High Rank	8	NA	NA	NA	66	2	0	-1	0	-4	Flayer	2	Blight Resistance	1	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+607	G Arkveld	G Arkveld Vambraces Alpha	Arms	Alpha	High Rank	8	1	NA	NA	66	2	0	-1	0	-4	Weakness Exploit	2	Blight Resistance	1	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+608	G Arkveld	G Arkveld Coil Alpha	Waist	Alpha	High Rank	8	NA	NA	NA	66	2	0	-1	0	-4	Flayer	2	Elemental Absorption	1	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+609	G Arkveld	G Arkveld Greaves Alpha	Legs	Alpha	High Rank	8	NA	NA	NA	66	2	0	-1	0	-4	Elemental Absorption	2	Weakness Exploit	1	NA	NA	Guardian's Pulse	Guardian Arkveld's Vitality
+610	G Arkveld	G Arkveld Helm Beta	Helm	Beta	High Rank	8	3	1	NA	66	2	0	-1	0	-4	Flayer	1	Partbreaker	1	NA	NA	Guardian's Protection	Guardian Arkveld's Vitality
+611	G Arkveld	G Arkveld Mail Beta	Chest	Beta	High Rank	8	3	NA	NA	66	2	0	-1	0	-4	Blight Resistance	2	Flayer	1	NA	NA	Guardian's Protection	Guardian Arkveld's Vitality
+612	G Arkveld	G Arkveld Vambraces Beta	Arms	Beta	High Rank	8	1	1	1	66	2	0	-1	0	-4	Weakness Exploit	2	NA	NA	NA	NA	Guardian's Protection	Guardian Arkveld's Vitality
+613	G Arkveld	G Arkveld Coil Beta	Waist	Beta	High Rank	8	2	1	NA	66	2	0	-1	0	-4	Flayer	2	NA	NA	NA	NA	Guardian's Protection	Guardian Arkveld's Vitality
+614	G Arkveld	G Arkveld Greaves Beta	Legs	Beta	High Rank	8	2	1	NA	66	2	0	-1	0	-4	Weakness Exploit	1	Elemental Absorption	1	NA	NA	Guardian's Protection	Guardian Arkveld's Vitality
+615	Guild Ace	Guild Ace Earrings Alpha	Helm	Alpha	High Rank	8	3	NA	NA	60	2	2	2	2	2	Peak Performance	1	Constitution	1	Foray	1	NA	NA
+616	Guild Ace	Guild Ace Mail Alpha	Chest	Alpha	High Rank	8	3	NA	NA	60	2	2	2	2	2	Peak Performance	1	Constitution	1	Foray	1	NA	NA
+617	Guild Ace	Guild Ace Vambraces Alpha	Arms	Alpha	High Rank	8	3	NA	NA	60	2	2	2	2	2	Peak Performance	1	Constitution	1	Foray	1	NA	NA
+618	Guild Ace	Guild Ace Coil Alpha	Waist	Alpha	High Rank	8	3	NA	NA	60	2	2	2	2	2	Peak Performance	1	Constitution	1	Foray	1	NA	NA
+619	Guild Ace	Guild Ace Boots Alpha	Legs	Alpha	High Rank	8	3	NA	NA	60	2	2	2	2	2	Peak Performance	1	Constitution	1	Foray	1	NA	NA
+620	Kitten	Kitten Frames Alpha	Helm	Alpha	High Rank	8	NA	NA	NA	66	2	0	4	0	4	Jump Master	1	Evade Extender	2	Ambush	3	NA	NA
+621	Numinous	Numinous Crown Alpha	Helm	Alpha	High Rank	8	3	2	NA	68	-2	2	2	0	-4	Recovery Speed	2	Agitator	1	NA	NA	Guardian's Pulse	Zoh Shia's Pulse
+622	Numinous	Numinous Shroud Alpha	Chest	Alpha	High Rank	8	1	NA	NA	68	-2	2	2	2	-4	Agitator	2	Counterstrike	1	NA	NA	Guardian's Pulse	Zoh Shia's Pulse
+623	Numinous	Numinous Vambraces Alpha	Arms	Alpha	High Rank	8	2	NA	NA	68	-2	2	2	0	-4	Elemental Absorption	2	Coalescence	1	NA	NA	Guardian's Pulse	Zoh Shia's Pulse
+624	Numinous	Numinous Overlay Alpha	Waist	Alpha	High Rank	8	NA	NA	NA	68	-2	2	2	0	-4	Agitator	2	Coalescence	2	NA	NA	Guardian's Pulse	Zoh Shia's Pulse
+625	Numinous	Numinous Greaves Alpha	Legs	Alpha	High Rank	8	2	1	NA	68	-2	2	2	0	-4	Recovery Speed	1	Counterstrike	2	Elemental Absorption	1	Guardian's Pulse	Zoh Shia's Pulse
+626	Numinous	Numinous Crown Beta	Helm	Beta	High Rank	8	3	2	1	68	-2	2	2	0	-4	Recovery Speed	1	Agitator	1	NA	NA	Guardian's Protection	Zoh Shia's Pulse
+627	Numinous	Numinous Shroud Beta	Chest	Beta	High Rank	8	3	NA	NA	68	-2	2	2	2	-4	Agitator	2	NA	NA	NA	NA	Guardian's Protection	Zoh Shia's Pulse
+628	Numinous	Numinous Vambraces Beta	Arms	Beta	High Rank	8	3	1	NA	68	-2	2	2	0	-1	Elemental Absorption	2	NA	NA	NA	NA	Guardian's Protection	Zoh Shia's Pulse
+629	Numinous	Numinous Overlay Beta	Waist	Beta	High Rank	8	2	NA	NA	68	-2	2	2	0	-4	Agitator	2	Coalescence	1	NA	NA	Guardian's Protection	Zoh Shia's Pulse
+630	Numinous	Numinous Greaves Beta	Legs	Beta	High Rank	8	3	2	NA	68	-2	2	2	0	-4	Recovery Speed	1	Counterstrike	1	Elemental Absorption	1	Guardian's Protection	Zoh Shia's Pulse
+631	Omega	Omega Ear Cuffs Alpha	Helm	Alpha	High Rank	8	3	2	NA	68	3	0	-3	0	-2	Divine Blessing	1	Weakness Exploit	1	NA	NA	NA	Omega Resonance
+632	Omega	Omega Suit Alpha	Chest	Alpha	High Rank	8	3	2	NA	68	3	0	-3	0	-2	Partbreaker	2	NA	NA	NA	NA	NA	Omega Resonance
+633	Omega	Omega Vambraces Alpha	Arms	Alpha	High Rank	8	3	2	NA	68	3	0	-3	0	-2	Divine Blessing	1	Agitator	1	NA	NA	NA	Omega Resonance
+634	Omega	Omega Accessory Alpha	Waist	Alpha	High Rank	8	3	2	NA	68	3	0	-3	0	-2	Divine Blessing	1	Burst	1	NA	NA	NA	Omega Resonance
+635	Omega	Omega Boots Alpha	Legs	Alpha	High Rank	8	3	2	NA	68	3	0	-3	0	-2	Evade Window	2	NA	NA	NA	NA	NA	Omega Resonance
+636	Rey	Rey Sandhelm Gamma	Helm	Gamma	High Rank	8	3	NA	NA	68	0	-2	4	-3	0	Stamina Surge	1	Weakness Exploit	1	Maximum Might	1	Lord's Soul	Rey Dau's Voltage
+637	Rey	Rey Sandmail Gamma	Chest	Gamma	High Rank	8	1	NA	NA	68	0	-2	4	-3	0	Latent Power	3	NA	NA	NA	NA	Lord's Soul	Rey Dau's Voltage
+638	Rey	Rey Sandbraces Gamma	Arms	Gamma	High Rank	8	3	3	NA	68	0	-2	4	-3	0	Evade Extender	2	NA	NA	NA	NA	Lord's Soul	Rey Dau's Voltage
+639	Rey	Rey Sandcoil Gamma	Waist	Gamma	High Rank	8	NA	NA	NA	68	0	-2	4	-3	0	Latent Power	2	Maximum Might	2	NA	NA	Lord's Soul	Rey Dau's Voltage
+640	Rey	Rey Sandgreaves Gamma	Legs	Gamma	High Rank	8	3	NA	NA	68	0	-2	4	-3	0	Stun Resistance	3	Stamina Surge	2	NA	NA	Lord's Soul	Rey Dau's Voltage
+641	Skull	Skull Mask Alpha	Helm	Alpha	High Rank	8	2	NA	NA	66	-3	-1	-1	-1	2	Earplugs	3	Intimidator	3	NA	NA	NA	NA
+642	Udra	Udra Mirehelm Gamma	Helm	Gamma	High Rank	8	1	1	1	68	5	-4	0	1	0	Burst	3	NA	NA	NA	NA	Lord's Soul	Nu Udra's Mutiny
+643	Udra	Udra Miremail Gamma	Chest	Gamma	High Rank	8	3	NA	NA	68	5	-4	0	1	0	Counterstrike	2	NA	NA	NA	NA	Lord's Soul	Nu Udra's Mutiny
+644	Udra	Udra Mirebraces Gamma	Arms	Gamma	High Rank	8	3	1	1	68	5	-4	0	1	0	Resentment	3	NA	NA	NA	NA	Lord's Soul	Nu Udra's Mutiny
+645	Udra	Udra Mirecoil Gamma	Waist	Gamma	High Rank	8	2	NA	NA	68	5	-4	0	1	0	Burst	2	Ambush	1	NA	NA	Lord's Soul	Nu Udra's Mutiny
+646	Udra	Udra Miregreaves Gamma	Legs	Gamma	High Rank	8	2	NA	NA	68	5	-4	0	1	0	Resentment	2	Counterstrike	1	Speed Eating	3	Lord's Soul	Nu Udra's Mutiny
