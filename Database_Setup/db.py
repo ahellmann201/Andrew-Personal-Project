@@ -42,14 +42,12 @@ def setup_database():
         thunder_resistance INTEGER,
         ice_resistance INTEGER,
         dragon_resistance INTEGER,
-        group_skill_id INTEGER,
-        set_bonus_id INTEGER,
         FOREIGN KEY (group_skill_id) REFERENCES skills (skill_id),
         FOREIGN KEY (set_bonus_id) REFERENCES skills (skill_id)
     )
     """)
 
-    #armor skills bridge table
+    #armor/skills bridge table
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS armor_skills (
         armor_id INTEGER,
@@ -63,8 +61,8 @@ def setup_database():
 
     #decorations main table
     cursor.execute("""
-    CREATE TABlE IF NOT EXISTS decoration (
-    decoration_id INTEGER PRIMARY KEY AUTO INCREMENT,
+    CREATE TABLE IF NOT EXISTS decoration (
+    decoration_id INTEGER PRIMARY KEY AUTOINCREMENT,
     decoration_name TEXT,
     slot_size INTEGER)
     """)
@@ -76,7 +74,7 @@ def setup_database():
     skill_id INTEGER,
     skill_level INTEGER,
     PRIMARY KEY (decoration_id, skill_id),
-    FOREIGN KEY (decoration_id) REFERENCES decoration_info (decoration_id) ON DELETE CASCADE,
+    FOREIGN KEY (decoration_id) REFERENCES decoration (decoration_id) ON DELETE CASCADE,
     FOREIGN KEY (skill_id) REFERENCES skills (skill_id) ON DELETE CASCADE
 )""")
 
@@ -99,7 +97,9 @@ def import_csv_data(skill_path,armor_path,deco_path):
     cursor = conn.cursor()
     cursor.execute("PRAGMA foreign_keys = ON")
 
-
+    #------------------------------------------------------------------------------
+    #                       SKILLS
+    #------------------------------------------------------------------------------
     with open(skill_path,mode='r',encoding='utf-8') as file:
         reader = csv.DictReader(file)
 
@@ -128,8 +128,10 @@ def import_csv_data(skill_path,armor_path,deco_path):
      level_1_effect,level_2_effect,level_3_effect,level_4_effect,level_5_effect,level_6_effect,level_7_effect))
 
 
-
-    with open (armor_path, mode = 'r', enconding = 'utf-8') as file:
+    #------------------------------------------------------------------------------
+    #                       ARMOR
+    #------------------------------------------------------------------------------
+    with open (armor_path, mode = 'r', encoding = 'utf-8') as file:
         reader = csv.DictReader(file)
 
         for row in reader:
@@ -170,21 +172,107 @@ def import_csv_data(skill_path,armor_path,deco_path):
             #get skill ids
             if skill_1_name != 'NA':
                 cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?",(skill_1_name))
-                result = cursor.fetchone()
-                if result:
-                    skill_1_id = result[0]
+                result1 = cursor.fetchone()
+                if result1:
+                    skill_1_id = result1[0]
 
             if skill_2_name != 'NA':
                 cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?", (skill_2_name))
-                result = cursor.fetchone()
-                if result:
-                    skill_2_id = result[0]
+                result2 = cursor.fetchone()
+                if result2:
+                    skill_2_id = result2[0]
+
+            if skill_3_name != 'NA':
+                cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?", (skill_3_name))
+                result3 = cursor.fetchone()
+                if result3:
+                    skill_3_id = result3[0]
+
+            if group_skill_name != 'NA':
+                cursor.execute("SELECT skill_id FROM skills where skill_name = ?", (group_skill_name))
+                resultg = cursor.fetchone()
+                if resultg:
+                    group_skill_id = resultg[0]
+
+            if set_bonus_name !=  'NA':
+                cursor.execute("SELECT skill_id FROM skills where skill_name = ?", (set_bonus_name))
+                resultsb = cursor.fetchone()
+                if resultsb:
+                    set_skill_id = resultsb[0]
+
+           
+
+            #insert info from armor csv into armor table
+            cursor.execute("""
+                INSERT INTO OR IGNORE armor (set_name,piece_name,armor_type,set_variant,rank,rarity,decoration_slot_size_1,decoration_slot_size_2,decoration_slot_size_3,
+                 defense,fire_resistance,water_resistance,thunder_resistance,ice_resistance,dragon_resistance)
+                    VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",(set_name,piece_name,armor_type,set_variant,rank,rarity,decoration_slot_size_1,decoration_slot_size_2,decoration_slot_size_3,
+                                                              defense,fire_resistance,water_resistance,thunder_resistance,ice_resistance,dragon_resistance))
+
+
+            #grab armor id
+            armor_id = cursor.lastrowid
             
+            #insert info into armor/skill bridge
+            if skill_1_id:
+                cursor.execute("""INSERT INTO OR IGNORE armor_skills(armor_id,skill_id,skill_level) VALUES (?,?,?)
+                """,(armor_id,skill_1_id,skill_1_level))
 
+            if skill_2_id:
+                cursor.execute("""INSERT INTO OR IGNORE armor_skills(armor_id,skill_id,skill_level) VALUES (?,?,?)
+                """,(armor_id,skill_2_id,skill_2_level))
 
+            if skill_3_id:
+                cursor.execute("""INSERT INTO OR IGNORE armor_skills(armor_id,skill_id,skill_level) VALUES (?,?,?)""",(armor_id,skill_3_id,skill_3_level))
 
+            if group_skill_id:
+                cursor.execute("""INSERT INTO OR IGNORE armor_skills(armor_id,skill_id,skill_level) VALUES (?,?,?)""",(armor_id,group_skill_id,1))
 
+            if set_skill_id:
+                cursor.execute("""INSERT INTO OR IGNORE armor_skills(armor_id,skill_id,skill_level) VALUES (?,?,?)""",(armor_id,set_skill_id,1))
 
+    #------------------------------------------------------------------------------
+    #                       DECORATIONS
+    #------------------------------------------------------------------------------
+    with open(deco_path,mode='r',encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+
+        for row in reader:
+
+            decoration_name = row.get('name')
+            skill_1_name = row.get('skill_1_name')
+            skill_2_name = row.get('skill_2_name')
+            skill_1_level = row.get('skill_1_level')
+            skill_2_level = row.get('skill_2_level')
+            slot_size = row.get('size')
+
+            skill_1_id = None
+            skill_2_id = None
+            #get skill ids
+            if skill_1_name != 'NA':
+                cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?",(skill_1_name))
+                result1 = cursor.fetchone()
+                if result1:
+                    skill_1_id = result1[0]
+
+            if skill_2_name != 'NA':
+                cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?", (skill_2_name))
+                result2 = cursor.fetchone()
+                if result2:
+                    skill_2_id = result2[0]
+
+            cursor.execute("""INSERT INTO OR IGNORE decoration(decoration_name,slot_size) VALUES(?,?)""",(decoration_name,slot_size))
+
+            decoration_id = cursor.lastrowid
+
+            if skill_1_id:
+                cursor.execute("""INSERT INTO OR IGNORE decoration_skills(decoration_id,skill_id,skill_level) VALUES (?,?,?)
+                """,(decoration_id,skill_1_id,skill_1_level))
+
+            if skill_2_id:
+                cursor.execute("""INSERT INTO OR IGNORE decoration_skills(decoration_id,skill_id,skill_level) VALUES (?,?,?)
+                """,(decoration_id,skill_2_id,skill_2_level))
+            
 
 
 
