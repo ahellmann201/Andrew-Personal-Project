@@ -2,33 +2,189 @@ import csv
 import sqlite3
 from pathlib import Path
 
+DB_NAME = 'my_database.db'
 
+def setup_database():
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    cursor.execute('PRAGMA foreign_keys = ON;')
 
-conn = sqlite3.connect('my_database.db')
-cursor = conn.cursor()
-armorcolumns = ('set_name TEXT, piece_name TEXT, armor_type TEXT, set_variant TEXT, rank TEXT, rarity INTEGER, decoration_slot_size_1 INTEGER, decoration_slot_size_2 INTEGER, decoration_slot_size_3 INTEGER, defense INTEGER, fire_resistance INTEGER, water_resistance INTEGER, thunder_resistance INTEGER, ice_resistance INTEGER, dragon_resistance INTEGER, skill_name_1 TEXT, skill_level_1 INTEGER, skill_name_2 TEXT, skill_level_2 INTEGER, skill_name_3 TEXT, skill_level_3 INTEGER, group_skill_name TEXT, set_bonus_name TEXT')
+    #skills table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS skills (
+        skill_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        skill_name TEXT UNIQUE NOT NULL,
+        skill_type TEXT,
+        skill_description TEXT,
+        skill_max_level INTEGER,
+        level_1_effect TEXT, level_2_effect TEXT, level_3_effect TEXT, 
+        level_4_effect TEXT, level_5_effect TEXT, level_6_effect TEXT, 
+        level_7_effect TEXT
+    )
+    """)
 
-cursor.execute(f'CREATE TABLE IF NOT EXISTS armor (id INTEGER PRIMARY KEY AUTOINCREMENT,{armorcolumns})')
-insert_columns = ('set_name,piece_name,armor_type,set_variant,rank,rarity,decoration_slot_size_1,decoration_slot_size_2,decoration_slot_size_3,defense,fire_resistance,water_resistance,thunder_resistance,ice_resistance,dragon_resistance,skill_name_1,skill_level_1,skill_name_2,skill_level_2,skill_name_3,skill_level_3,group_skill_name,set_bonus_name')
-placeholders = ', '.join(['?']*23)
+    #armor table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS armor (
+        armor_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        set_name TEXT,
+        piece_name TEXT,
+        armor_type TEXT,
+        set_variant TEXT,
+        rank TEXT,
+        rarity INTEGER,
+        decoration_slot_size_1 INTEGER,
+        decoration_slot_size_2 INTEGER,
+        decoration_slot_size_3 INTEGER,
+        defense INTEGER,
+        fire_resistance INTEGER,
+        water_resistance INTEGER,
+        thunder_resistance INTEGER,
+        ice_resistance INTEGER,
+        dragon_resistance INTEGER,
+        group_skill_id INTEGER,
+        set_bonus_id INTEGER,
+        FOREIGN KEY (group_skill_id) REFERENCES skills (skill_id),
+        FOREIGN KEY (set_bonus_id) REFERENCES skills (skill_id)
+    )
+    """)
 
-insert_query = f'INSERT INTO armor ({insert_columns}) VALUES ({placeholders})'
+    #armor skills bridge table
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS armor_skills (
+        armor_id INTEGER,
+        skill_id INTEGER,
+        skill_level INTEGER,
+        PRIMARY KEY (armor_id, skill_id),
+        FOREIGN KEY (armor_id) REFERENCES armor (armor_id) ON DELETE CASCADE,
+        FOREIGN KEY (skill_id) REFERENCES skills (skill_id) ON DELETE CASCADE
+    )
+    """)
 
-#get folder for below
-script_dir = Path(__file__).resolve().parent
-file_path = script_dir.parent / "data" / "Armor_Data.csv"
+    #decorations main table
+    cursor.execute("""
+    CREATE TABlE IF NOT EXISTS decoration (
+    decoration_id INTEGER PRIMARY KEY AUTO INCREMENT,
+    decoration_name TEXT,
+    slot_size INTEGER)
+    """)
 
-
-
-with open (file_path, 'r', encoding = 'utf-8') as file:
-    tsv_reader = csv.reader(file, delimiter=',')
-
-    #skip header row
-    next(tsv_reader,None)
-    
-    all_data = [row[1:]for row in tsv_reader]
-
-    cursor.executemany(insert_query,all_data)
+    #decoration/skill bridge
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS decoration_skills (
+    decoration_id INTEGER,
+    skill_id INTEGER,
+    skill_level INTEGER,
+    PRIMARY KEY (decoration_id, skill_id),
+    FOREIGN KEY (decoration_id) REFERENCES decoration_info (decoration_id) ON DELETE CASCADE,
+    FOREIGN KEY (skill_id) REFERENCES skills (skill_id) ON DELETE CASCADE
+)""")
 
     conn.commit()
     conn.close()
+
+
+
+
+def get_folder_paths():
+    script_dir = Path(__file__).resolve().parent
+    armor_file_path = script_dir.parent / "data" / "Armor_Data.csv"
+    decoration_file_path = script_dir.parent / "data" / "Decoration_Data.csv"
+    skills_file_path = script_dir.parent / "data" / "Skill_Data.csv"
+
+    return skills_file_path,armor_file_path,decoration_file_path
+
+def import_csv_data(skill_path,armor_path,deco_path):
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    cursor.execute("PRAGMA foreign_keys = ON")
+
+
+    with open(skill_path,mode='r',encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+
+        for row in reader:
+
+            #dictionary for skills
+            skill_name = row.get('name')
+            skill_type = row.get('type')
+            skill_description = row.get('description')
+            skill_max_level = row.get('max_level')
+            level_1_effect    = row.get('level_1_effect')
+            level_2_effect    = row.get('level_2_effect')
+            level_3_effect    = row.get('level_3_effect')
+            level_4_effect    = row.get('level_4_effect')
+            level_5_effect    = row.get('level_5_effect')
+            level_6_effect    = row.get('level_6_effect')
+            level_7_effect    = row.get('level_7_effect')
+
+            cursor.execute("""
+            INSERT INTO OR IGNORE skills (skill_name, skill_type, skill_description,skill_max_level,
+                    level_1_effect, level_2_effect, level_3_effect, 
+                    level_4_effect, level_5_effect, level_6_effect, 
+                    level_7_effect )
+                    VALUES(?,?,?,?,?,?,?,?,?,?,?)
+""",(skill_name,skill_type,skill_description,skill_max_level,
+     level_1_effect,level_2_effect,level_3_effect,level_4_effect,level_5_effect,level_6_effect,level_7_effect))
+
+
+
+    with open (armor_path, mode = 'r', enconding = 'utf-8') as file:
+        reader = csv.DictReader(file)
+
+        for row in reader:
+
+            #dictionary for armor
+            set_name = row.get('Set_name')
+            piece_name = row.get('Name')
+            armor_type = row.get('Armor_type')
+            set_variant = row.get('set_variant')
+            rank = row.get('rank')
+            rarity = row.get('rarity')
+            decoration_slot_size_1 = row.get('slot_1')
+            decoration_slot_size_2 = row.get('slot_2')
+            decoration_slot_size_3 = row.get('slot_3')
+            defense = row.get('defense')
+            fire_resistance = row.get('fire_res')
+            water_resistance = row.get('water_res')
+            thunder_resistance = row.get('thunder_res')
+            ice_resistance = row.get('ice_res')
+            dragon_resistance = row.get("dragon_res")
+
+            #info for the bridge
+            skill_1_name = row.get("skill_1")
+            skill_1_level = row.get("skill_1_level")
+            skill_2_name = row.get("skill_2")
+            skill_2_level = row.get("skill_2_level")
+            skill_3_name = row.get("skill_3")
+            skill_3_level = row.get("skill_3_level")
+            group_skill_name = row.get("group_skill")
+            set_bonus_name = row.get("set_bonus_skill")
+
+            skill_1_id = None
+            skill_2_id = None
+            skill_3_id = None
+            group_skill_id = None
+            set_skill_id = None
+
+            #get skill ids
+            if skill_1_name != 'NA':
+                cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?",(skill_1_name))
+                result = cursor.fetchone()
+                if result:
+                    skill_1_id = result[0]
+
+            if skill_2_name != 'NA':
+                cursor.execute("SELECT skill_id FROM skills WHERE skill_name = ?", (skill_2_name))
+                result = cursor.fetchone()
+                if result:
+                    skill_2_id = result[0]
+            
+
+
+
+
+
+
+
+
