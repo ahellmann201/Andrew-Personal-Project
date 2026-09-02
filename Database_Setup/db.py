@@ -272,6 +272,12 @@ def import_csv_data(skill_path,armor_path,deco_path):
             if skill_2_id:
                 cursor.execute("""INSERT INTO OR IGNORE decoration_skills(decoration_id,skill_id,skill_level) VALUES (?,?,?)
                 """,(decoration_id,skill_2_id,skill_2_level))
+
+
+    #------------------------------------------------------------------------------
+    #                       WEAPONS
+    #------------------------------------------------------------------------------
+    #
             
 
 
