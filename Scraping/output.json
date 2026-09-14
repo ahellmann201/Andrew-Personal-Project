@@ -1,0 +1,173 @@
+{
+  'coatings': [
+    'pierce',
+    'blast'
+  ],
+  'gameId': 11,
+  'crafting': {
+    'weapon': {
+      'id': 11
+    },
+    'craftable': False,
+    'previous': {
+      'name': 'Rey Perkonis II',
+      'id': 10
+    },
+    'branches': [
+      {
+        'name': 'Perkonis Clairbow',
+        'id': 12
+      }
+    ],
+    'craftingMaterials': [],
+    'craftingZennyCost': 0,
+    'upgradeMaterials': [
+      {
+        'item': {
+          'id': 121,
+          'gameId': 143,
+          'rarity': 4,
+          'name': 'Rey Dau Tail',
+          'description': 'A Rey Dau tail. Its fulgurite-covered spines rub together to produce a threatening melody.',
+          'value': 1240,
+          'carryLimit': 99,
+          'recipes': [],
+          'icon': {
+            'id': 47,
+            'kind': 'tail',
+            'colorId': 10,
+            'color': 'yellow'
+          }
+        },
+        'quantity': 1,
+        'id': 42813
+      },
+      {
+        'item': {
+          'id': 122,
+          'gameId': 144,
+          'rarity': 5,
+          'name': 'Rey Dau Plate',
+          'description': 'A Rey Dau plate. The backward-facing scale accumulates a massive amount of energy.',
+          'value': 3720,
+          'carryLimit': 99,
+          'recipes': [],
+          'icon': {
+            'id': 50,
+            'kind': 'plate',
+            'colorId': 10,
+            'color': 'yellow'
+          }
+        },
+        'quantity': 1,
+        'id': 42814
+      },
+      {
+        'item': {
+          'id': 317,
+          'gameId': 350,
+          'rarity': 6,
+          'name': 'Rey Dau Fulgurtalon',
+          'description': 'A Rey Dau wingtalon with an azure glow. Coated with pure, razor-sharp fulgurite.',
+          'value': 4800,
+          'carryLimit': 99,
+          'recipes': [],
+          'icon': {
+            'id': 45,
+            'kind': 'claw',
+            'colorId': 17,
+            'color': 'blue'
+          }
+        },
+        'quantity': 4,
+        'id': 42815
+      },
+      {
+        'item': {
+          'id': 319,
+          'gameId': 352,
+          'rarity': 6,
+          'name': 'Rey Dau Certificate S',
+          'description': 'A Guild certificate awarded to those who have hunted a Rey Dau. Used to make equipment.',
+          'value': 2400,
+          'carryLimit': 99,
+          'recipes': [],
+          'icon': {
+            'id': 30,
+            'kind': 'certificate',
+            'colorId': 10,
+            'color': 'yellow'
+          }
+        },
+        'quantity': 3,
+        'id': 42816
+      }
+    ],
+    'upgradeZennyCost': 14000,
+    'column': 7,
+    'row': 3,
+    'id': 11
+  },
+  'rarity': 7,
+  'kind': 'bow',
+  'damage': {
+    'raw': 200,
+    'display': 240
+  },
+  'specials': [
+    {
+      'element': 'thunder',
+      'kind': 'element',
+      'weapon': {
+        'id': 11
+      },
+      'damage': {
+        'raw': 13,
+        'display': 130
+      },
+      'hidden': False,
+      'id': 7037
+    }
+  ],
+  'name': 'Rey Perkonis III',
+  'description': "A bow imbued with Rey Dau's thunder. Retains a charge even after releasing a thousand bolts.",
+  'defenseBonus': 0,
+  'elderseal': None,
+  'slots': [
+    3,
+    2
+  ],
+  'affinity': 0,
+  'skills': [
+    {
+      'skill': {
+        'id': 60,
+        'name': 'Focus',
+        'description': 'Increases the fill rate for weapons with gauges and the charge rate for weapons with charge attacks.'
+      },
+      'level': 2,
+      'name': None,
+      'description': 'Moderately increases gauge fill rate and reduces charge times by 10%.',
+      'setPiecesRequired': None,
+      'id': 149
+    },
+    {
+      'skill': {
+        'id': 69,
+        'name': 'Special Ammo Boost',
+        'description': "Increases the power of the bowgun's special ammo, and the bow's Dragon Piercer, Thousand Dragons, and Tracer."
+      },
+      'level': 1,
+      'name': None,
+      'description': 'Moderately increases the power of specified ammo and arrows.',
+      'setPiecesRequired': None,
+      'id': 169
+    }
+  ],
+  'series': {
+    'id': 14,
+    'gameId': -621613632,
+    'name': 'Rey Dau Tree'
+  },
+  'id': 11
+}
