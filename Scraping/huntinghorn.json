@@ -1,0 +1,190 @@
+{
+  'melody': {
+    'id': 5,
+    'gameId': 4,
+    'notes': [
+      'white',
+      'red',
+      'yellow'
+    ],
+    'songs': [
+      {
+        'effectId': 1,
+        'sequence': [
+          'white',
+          'white'
+        ],
+        'name': 'Self-Improvement',
+        'id': 2
+      },
+      {
+        'effectId': 11,
+        'sequence': [
+          'white',
+          'red',
+          'white'
+        ],
+        'name': 'Attack Up (S)',
+        'id': 18
+      },
+      {
+        'effectId': 18,
+        'sequence': [
+          'yellow',
+          'red',
+          'white'
+        ],
+        'name': 'Fire Res (S)',
+        'id': 32
+      },
+      {
+        'effectId': 40,
+        'sequence': [
+          'yellow',
+          'yellow',
+          'yellow'
+        ],
+        'name': 'Sonic Waves',
+        'id': 61
+      },
+      {
+        'effectId': 48,
+        'sequence': [
+          'white',
+          'red',
+          'red'
+        ],
+        'name': 'Melody of Life',
+        'id': 71
+      }
+    ]
+  },
+  'echoBubble': {
+    'kind': 'evasion',
+    'name': 'Evasion & Movement Speed Up',
+    'id': 1,
+    'gameId': 1
+  },
+  'echoWave': {
+    'id': 1,
+    'gameId': 1,
+    'kind': 'blunt',
+    'name': 'Echo Wave (Blunt)'
+  },
+  'gameId': 1,
+  'crafting': {
+    'weapon': {
+      'id': 531
+    },
+    'craftable': True,
+    'previous': None,
+    'branches': [
+      {
+        'name': 'Hope Horn II',
+        'id': 532
+      },
+      {
+        'name': 'Sonic Horn I',
+        'id': 593
+      }
+    ],
+    'craftingMaterials': [],
+    'craftingZennyCost': 200,
+    'upgradeMaterials': [],
+    'upgradeZennyCost': 0,
+    'column': 0,
+    'row': 0,
+    'id': 531
+  },
+  'rarity': 1,
+  'kind': 'hunting-horn',
+  'damage': {
+    'raw': 90,
+    'display': 378
+  },
+  'specials': [],
+  'name': 'Hope Horn I',
+  'description': 'A hunting horn made specifically for the expedition. Its tunes produce a variety of effects.',
+  'defenseBonus': 0,
+  'elderseal': None,
+  'slots': [],
+  'affinity': 0,
+  'skills': [],
+  'series': {
+    'id': 19,
+    'gameId': 1,
+    'name': 'Expedition Tree'
+  },
+  'id': 531,
+  'sharpness': {
+    'red': 50,
+    'orange': 60,
+    'yellow': 50,
+    'green': 40,
+    'blue': 0,
+    'white': 0,
+    'purple': 0
+  },
+  'handicraft': [
+    5
+  ]
+}
+{
+  'gameId': 1,
+  'crafting': {
+    'weapon': {
+      'id': 155
+    },
+    'craftable': True,
+    'previous': None,
+    'branches': [
+      {
+        'name': 'Hope Daggers II',
+        'id': 156
+      },
+      {
+        'name': 'Quematrice Silexes I',
+        'id': 169
+      }
+    ],
+    'craftingMaterials': [],
+    'craftingZennyCost': 200,
+    'upgradeMaterials': [],
+    'upgradeZennyCost': 0,
+    'column': 0,
+    'row': 0,
+    'id': 155
+  },
+  'rarity': 1,
+  'kind': 'dual-blades',
+  'damage': {
+    'raw': 90,
+    'display': 126
+  },
+  'specials': [],
+  'name': 'Hope Daggers I',
+  'description': 'Dual blades made specifically for the expedition. Allows a hunter to unleash the power of a demon.',
+  'defenseBonus': 0,
+  'elderseal': None,
+  'slots': [],
+  'affinity': 0,
+  'skills': [],
+  'series': {
+    'id': 19,
+    'gameId': 1,
+    'name': 'Expedition Tree'
+  },
+  'id': 155,
+  'sharpness': {
+    'red': 50,
+    'orange': 40,
+    'yellow': 40,
+    'green': 70,
+    'blue': 0,
+    'white': 0,
+    'purple': 0
+  },
+  'handicraft': [
+    5
+  ]
+}

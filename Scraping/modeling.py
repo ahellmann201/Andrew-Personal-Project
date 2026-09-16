@@ -1,37 +1,3 @@
-from enum import Enum
-
-
-
-
-class Weapon:
-
-    def __init__(self, data: dict[str, Any]):
-        self.name: str = data["name"]
-        self.kind: str = data["kind"]
-        self.rarity: int = data["rarity"]
-
-        self.damage: dict[str, Any] = data["damage"]
-        self.affinity: int = data["affinity"]
-        self.specials: list[dict[str, Any]] = data["specials"]
-
-        self.defense_bonus: int = data["defenseBonus"]
-        self.elderseal: Any = data["elderseal"]
-        self.slots: list[Any] = data["slots"]
-
-        self.game_id: str = data["gameId"]
-        self.id: str = data["id"]
-
-        self.coatings: list[Any] = data["coatings"]
-        self.skills: list[Any] = data["skills"]
-        self.series: Any = data["series"]
-
-        self.description: str = data["description"]
-
-class Coating:
-    def __init__(self,data:list[str]) -> None:
-        print("coating initialized")
-        pass
-
 class Special:
 
     def __init__(
@@ -99,42 +65,7 @@ class Slot:
         )
 
 
-class Skill:
-    def __init__(
-            self,
-            name: str = "NA",
-            description: str = "NA",
-            ranks: list[str] = ["NA"],
-            kind = "NA",
-    )-> None:
-        self.name = name
-        self.description = description
-        self.ranks = ranks
-        self.kind = kind
-
-    @classmethod
-    def from_dict(cls, data: dict) -> "Skill":
-        if(len(data) == 0):
-            return cls(
-                name = "NA",
-                description = "NA",
-                ranks = ["NA"],
-                kind = "NA"
-            )
-        return cls(
-            name = data[0]["name"],
-            description = data[0]["description"],
-            ranks = data[0]["ranks"],
-            kind = data[0]["kind"]
-        )
-
-class Skill_Type(str,Enum):
-    ARMOR = 'armor'
-    WEAPON = 'weapon'
-    SET = 'set'
-    GROUP = 'group'
-
-class Skill_Rank:
+class SkillRank:
     def __init__(
             self,
             name: str = "NA",
@@ -148,7 +79,7 @@ class Skill_Rank:
         self.set_pieces_required = set_pieces_required
 
     @classmethod
-    def from_dict(cls, data: dict) -> "Skill_Rank":
+    def from_dict(cls, data: dict) -> "SkillRank":
         if(len(data) == 0):
             return cls(
                 name = "NA",
@@ -162,7 +93,37 @@ class Skill_Rank:
             level = data[0]["level"],
             set_pieces_required = data[0]["set_pieces_required"],
         )
+#
+# class Skill:
+#     def __init__(
+#             self,
+#             name: str = "NA",
+#             description: str = "NA",
+#             ranks: list[SkillRank] = SkillRank.from_dict(list[str]),
+#             kind = SkillKind.BLANK,
+#     )-> None:
+#         self.name = name
+#         self.description = description
+#         self.ranks = ranks
+#         self.kind = SkillKind(kind)
+#
+#     @classmethod
+#     def from_dict(cls, data: dict) -> "Skill":
+#         if(len(data) == 0):
+#             return cls(
+#                 name = "NA",
+#                 description = "NA",
+#                 ranks = ["NA"],
+#                 kind = "NA"
+#             )
+#         return cls(
+#             name = data[0]["name"],
+#             description = data[0]["description"],
+#             ranks = data[0]["ranks"],
+#             kind = data[0]["kind"]
+#         )
+#
+#
+#
 
 
-def extract_raw_damage(o):
-    return o["raw"]

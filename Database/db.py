@@ -1,0 +1,1 @@
+HUNTING_HORN_DICT = {}
