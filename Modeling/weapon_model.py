@@ -2,11 +2,12 @@ from typing import *
 
 from pydantic import BaseModel, Field, ConfigDict
 
+from Modeling.base_model import ApiModel
 from Modeling.entities import HuntingHorn, WeaponDamage
 from Modeling.enums import *
 
 
-class Weapon(BaseModel):
+class WeaponBase(BaseModel):
     model_config = ConfigDict(
         populate_by_name=True
     )
@@ -29,7 +30,7 @@ class Weapon(BaseModel):
     sharpness: "Sharpness | None" = None
     subtype: HuntingHorn | None = None
 
-class Sharpness(BaseModel):
+class Sharpness(ApiModel):
     red: int | None = None
     orange: int | None = None
     yellow: int | None = None

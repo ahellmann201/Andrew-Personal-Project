@@ -1,16 +1,18 @@
 from pydantic import BaseModel, Field, ConfigDict
 
+from base_model import ApiModel
+from weapon_model import WeaponBase
 from enums import (
     HuntingHornBubbleKind,
     HuntingHornNote,
     HuntingHornWaveKind, BowCoating, ChargeBladePhial, GunlanceShell, AmmoKind, LightBowgunSpecialAmmo, SwitchAxePhial,
 )
 
-class WeaponDamage(BaseModel):
+class WeaponDamage(ApiModel):
     raw: int | None = None
     display: int | None = None
 
-class HuntingHorn(BaseModel):
+class HuntingHorn(WeaponBase):
     melody: "HuntingHornMelody | None" = None
     echo_bubble: "HuntingHornBubble | None" = Field(
         default=None,
@@ -26,7 +28,7 @@ class HuntingHorn(BaseModel):
     )
 
 
-class HuntingHornMelody(BaseModel):
+class HuntingHornMelody(ApiModel):
     id: int | None = None
     notes: list[HuntingHornNote] = Field(
         default_factory=list
@@ -36,19 +38,19 @@ class HuntingHornMelody(BaseModel):
     )
 
 
-class HuntingHornBubble(BaseModel):
+class HuntingHornBubble(ApiModel):
     id: int | None = None
     kind: HuntingHornBubbleKind | None = None
     name: str | None = None
 
 
-class HuntingHornWave(BaseModel):
+class HuntingHornWave(ApiModel):
     id: int | None = None
     kind: HuntingHornWaveKind | None = None
     name: str | None = None
 
 
-class HuntingHornSong(BaseModel):
+class HuntingHornSong(ApiModel):
     id: int | None = None
     effect_id: int | None = Field(
         default=None,
@@ -63,23 +65,23 @@ class HuntingHornSong(BaseModel):
         populate_by_name=True
     )
 
-class Bow(BaseModel):
+class Bow(WeaponBase):
     coatings : list[BowCoating] = Field(
         default_factory=list
     )
 
-class ChargeBlade(BaseModel):
+class ChargeBlade(WeaponBase):
     phial: ChargeBladePhial = Field(
         alias="phial",
     )
 
-class Gunlance(BaseModel):
+class Gunlance(WeaponBase):
     shell: GunlanceShell = Field(
         alias="shell",
     )
     shell_level: int = Field()
 
-class HeavyBowgun(BaseModel):
+class HeavyBowgun(WeaponBase):
     ammo: list[HeavyBowgunAmmo] = Field()
 
 class HeavyBowgunAmmo(BaseModel):
@@ -89,16 +91,16 @@ class HeavyBowgunAmmo(BaseModel):
     level: int = Field()
     capaciy: int = Field()
 
-class InsectGlaive(BaseModel):
+class InsectGlaive(WeaponBase):
     kinsect_level: int = Field()
 
-class LightBowgun(BaseModel):
+class LightBowgun(WeaponBase):
     ammo: list[LightBowgunAmmo] = Field()
     special_ammo: LightBowgunSpecialAmmo = Field(
         alias="specialAmmo",
     )
 
-class LightBowgunAmmo(BaseModel):
+class LightBowgunAmmo(ApiModel):
     kind: AmmoKind = Field(
         alias="kind",
     )
@@ -106,10 +108,10 @@ class LightBowgunAmmo(BaseModel):
     capaciy: int = Field()
     rapid: bool = Field()
 
-class SwitchAxe(BaseModel):
+class SwitchAxe(WeaponBase):
     pass
 
-class Phial(BaseModel):
+class Phial(ApiModel):
     kind: SwitchAxePhial = Field(
         alias="kind",
     )
