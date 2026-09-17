@@ -1,6 +1,6 @@
 from enum import Enum
 
-class WeaponType(Enum):
+class WeaponType(str, Enum):
     BOW = 'bow'
     CHARGE_BLADE = 'charge-blade'
     DUAL_BLADES = 'dual-blades'
