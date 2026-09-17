@@ -1,121 +1,116 @@
-from typing import Any
+from pydantic import BaseModel, Field, ConfigDict
 
-from enums import *
+from enums import (
+    HuntingHornBubbleKind,
+    HuntingHornNote,
+    HuntingHornWaveKind, BowCoating, ChargeBladePhial, GunlanceShell, AmmoKind, LightBowgunSpecialAmmo, SwitchAxePhial,
+)
 
-class HuntingHorn:
-    def __init__(self,
-                 melody: HuntingHornMelody | None = None,
-                 echo_bubble: HuntingHornBubble | None = None,
-                 echo_wave: HuntingHornWave | None = None,):
-        self.melody: HuntingHornMelody | None = melody
-        self.echo_bubble: HuntingHornBubble | None = echo_bubble
-        self.echo_wave: HuntingHornWave | None = echo_wave
+class WeaponDamage(BaseModel):
+    raw: int | None = None
+    display: int | None = None
 
-    @classmethod
-    def from_dict(cls,data: dict[str,Any]) -> "HuntingHorn" :
-        return cls(
-            melody=HuntingHornMelody.from_dict(data['melody']),
-            echo_bubble=HuntingHornBubble.from_dict(data['echoBubble']),
-            echo_wave = HuntingHornWave.from_dict(data['echoWave'])
-        )
+class HuntingHorn(BaseModel):
+    melody: "HuntingHornMelody | None" = None
+    echo_bubble: "HuntingHornBubble | None" = Field(
+        default=None,
+        alias="echoBubble",
+    )
+    echo_wave: "HuntingHornWave | None" = Field(
+        default=None,
+        alias="echoWave",
+    )
 
-
-class HuntingHornMelody:
-    def __init__(self,
-        id: int | None = None,
-        notes: list[HuntingHornNote] | None = None,
-        songs: list[HuntingHornSong] | None = None,
-    ):
-        self.id: int | None = id
-        self.notes: list[HuntingHornNote] = notes or []
-        self.songs: list[HuntingHornSong] = songs or []
+    model_config = ConfigDict(
+        populate_by_name=True
+    )
 
 
-    @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "HuntingHornMelody":
-        return cls(
-            id = data["id"],
-            notes = [
-                HuntingHornNote(note)
-                for note in data["notes"]
-            ],
-            songs = [
-                HuntingHornSong.from_dict(song)
-                for song in data["songs"]
-            ]
+class HuntingHornMelody(BaseModel):
+    id: int | None = None
+    notes: list[HuntingHornNote] = Field(
+        default_factory=list
+    )
+    songs: list["HuntingHornSong"] = Field(
+        default_factory=list
+    )
 
 
-        )
+class HuntingHornBubble(BaseModel):
+    id: int | None = None
+    kind: HuntingHornBubbleKind | None = None
+    name: str | None = None
 
 
-
-class HuntingHornBubble:
-    def __init__(
-        self,
-        id: int | None = None,
-        kind: HuntingHornBubbleKind | None = None,
-        name: str | None = None,
-    ):
-        self.id: int | None = id
-        self.kind: HuntingHornBubbleKind | None = kind
-        self.name: str | None = name
-
-    @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "HuntingHornBubble" :
-        return cls(
-            id = data['id'],
-            kind = HuntingHornBubbleKind(data['kind']),
-            name = data['name'],
-        )
+class HuntingHornWave(BaseModel):
+    id: int | None = None
+    kind: HuntingHornWaveKind | None = None
+    name: str | None = None
 
 
-class HuntingHornWave:
-    def __init__(
-        self,
-        id: int | None = None,
-        kind: HuntingHornWaveKind | None = None,
-        name: str | None = None,
-    ):
-        self.id: int | None = id
-        self.kind: HuntingHornWaveKind | None = kind
-        self.name: str | None = name
+class HuntingHornSong(BaseModel):
+    id: int | None = None
+    effect_id: int | None = Field(
+        default=None,
+        alias="effectId",
+    )
+    sequence: list[HuntingHornNote] = Field(
+        default_factory=list
+    )
+    name: str | None = None
 
-    @classmethod
-    def from_dict(cls,data: dict[str,Any])->"HuntingHornWave":
-        return cls(
-            id = data['id'],
-            kind = HuntingHornWaveKind(data['kind']),
-            name = data['name'],
-        )
+    model_config = ConfigDict(
+        populate_by_name=True
+    )
 
+class Bow(BaseModel):
+    coatings : list[BowCoating] = Field(
+        default_factory=list
+    )
 
-class HuntingHornSong:
-    def __init__(self,
-                 id : int | None = None,
-                 effect_id : int | None = None,
-                 sequence: list[HuntingHornNote] | None = None,
-                 name: str | None = None):
-        self.id: int | None = id
-        self.effect_id: int | None = effect_id
-        self.sequence: list[HuntingHornNote] = sequence or []
-        self.name: str | None = name
+class ChargeBlade(BaseModel):
+    phial: ChargeBladePhial = Field(
+        alias="phial",
+    )
 
-    @classmethod
-    def from_dict(cls, data: dict[str, Any]) -> "HuntingHornSong":
-        if(data["id"] is None):
-            return cls(
-                id = None,
-                effect_id = None,
-                sequence = [],
-                name = ""
-            )
-        return cls(
-            id = data['id'],
-            effect_id = data['effectId'],
-            sequence = [
-                HuntingHornNote(note)
-                for note in data['sequence']
-            ],
-            name = data['name']
+class Gunlance(BaseModel):
+    shell: GunlanceShell = Field(
+        alias="shell",
+    )
+    shell_level: int = Field()
 
-        )
+class HeavyBowgun(BaseModel):
+    ammo: list[HeavyBowgunAmmo] = Field()
+
+class HeavyBowgunAmmo(BaseModel):
+    kind: AmmoKind = Field(
+        alias="kind",
+    )
+    level: int = Field()
+    capaciy: int = Field()
+
+class InsectGlaive(BaseModel):
+    kinsect_level: int = Field()
+
+class LightBowgun(BaseModel):
+    ammo: list[LightBowgunAmmo] = Field()
+    special_ammo: LightBowgunSpecialAmmo = Field(
+        alias="specialAmmo",
+    )
+
+class LightBowgunAmmo(BaseModel):
+    kind: AmmoKind = Field(
+        alias="kind",
+    )
+    level: int = Field()
+    capaciy: int = Field()
+    rapid: bool = Field()
+
+class SwitchAxe(BaseModel):
+    pass
+
+class Phial(BaseModel):
+    kind: SwitchAxePhial = Field(
+        alias="kind",
+    )
+    damage: WeaponDamage = Field()

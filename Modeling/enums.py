@@ -105,3 +105,42 @@ class SwitchAxePhial(Enum):
 class LightBowgunSpecialAmmo(Enum):
     WYVERN_BLAST='wyvernblast'
     ADHESIVE='adhesive'
+
+class Elderseal(Enum):
+    LOW='low'
+    AVERAGE='average'
+    HIGH='high'
+
+class Element(Enum):
+    FIRE='fire'
+    WATER='water'
+    ICE='ice'
+    THUNDER='thunder'
+    DRAGON='dragon'
+
+class Status(Enum):
+    POISON='poison'
+    SLEEP='sleep'
+    PARALYSIS='paralysis'
+    STUN='stun'
+    BLASTBLIGHT='blastblight'
+
+class SpecialKind(Enum):
+    ELEMENT='element'
+    STATUS='status'
+
+class DecorationKind(Enum):
+    WEAPON='weapon'
+    ARMOR='armor'
+
+class ArmorKind(Enum):
+    HEAD='head'
+    CHEST='chest'
+    ARMS='arms'
+    WAIST='waist'
+    LEGS='legs'
+
+class Rank(Enum):
+    LOW='low'
+    HIGH='high'
+    MASTER='master'
