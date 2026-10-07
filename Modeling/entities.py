@@ -1,38 +1,52 @@
-from pydantic import BaseModel, Field, ConfigDict
+from pydantic import Field
 
-from base_model import ApiModel
-from weapon_model import WeaponBase
-from enums import (
+from Modeling.base_model import ApiModel
+from Modeling.weapon_model import WeaponBase, WeaponDamage
+from Modeling.enums import (
     HuntingHornBubbleKind,
     HuntingHornNote,
-    HuntingHornWaveKind, BowCoating, ChargeBladePhial, GunlanceShell, AmmoKind, LightBowgunSpecialAmmo, SwitchAxePhial,
+    HuntingHornWaveKind,
+    BowCoating,
+    ChargeBladePhial,
+    GunlanceShell,
+    AmmoKind,
+    LightBowgunSpecialAmmo,
+    SwitchAxePhial,
 )
 
-class WeaponDamage(ApiModel):
-    raw: int | None = None
-    display: int | None = None
+
+# ============================================================
+# Hunting Horn
+# ============================================================
 
 class HuntingHorn(WeaponBase):
     melody: "HuntingHornMelody | None" = None
+
     echo_bubble: "HuntingHornBubble | None" = Field(
         default=None,
         alias="echoBubble",
     )
+
     echo_wave: "HuntingHornWave | None" = Field(
         default=None,
         alias="echoWave",
     )
 
-    model_config = ConfigDict(
-        populate_by_name=True
-    )
+    def __str__(self):
+        return "\n".join(
+            f"{name}: {value}"
+            for name, value in self.model_dump().items()
+        )
+
 
 
 class HuntingHornMelody(ApiModel):
     id: int | None = None
+
     notes: list[HuntingHornNote] = Field(
         default_factory=list
     )
+
     songs: list["HuntingHornSong"] = Field(
         default_factory=list
     )
@@ -52,67 +66,104 @@ class HuntingHornWave(ApiModel):
 
 class HuntingHornSong(ApiModel):
     id: int | None = None
+
     effect_id: int | None = Field(
         default=None,
         alias="effectId",
     )
+
     sequence: list[HuntingHornNote] = Field(
         default_factory=list
     )
+
     name: str | None = None
 
-    model_config = ConfigDict(
-        populate_by_name=True
-    )
+
+# ============================================================
+# Bow
+# ============================================================
 
 class Bow(WeaponBase):
-    coatings : list[BowCoating] = Field(
+    coatings: list[BowCoating] = Field(
         default_factory=list
     )
 
+
+# ============================================================
+# Charge Blade
+# ============================================================
+
 class ChargeBlade(WeaponBase):
-    phial: ChargeBladePhial = Field(
-        alias="phial",
-    )
+    phial: ChargeBladePhial
+
+
+# ============================================================
+# Gunlance
+# ============================================================
 
 class Gunlance(WeaponBase):
-    shell: GunlanceShell = Field(
-        alias="shell",
+    shell: GunlanceShell
+
+    shell_level: int = Field(
+        alias="shellLevel"
     )
-    shell_level: int = Field()
+
+
+# ============================================================
+# Heavy Bowgun
+# ============================================================
+
+class HeavyBowgunAmmo(ApiModel):
+    kind: AmmoKind
+    level: int
+    capacity: int
+
 
 class HeavyBowgun(WeaponBase):
-    ammo: list[HeavyBowgunAmmo] = Field()
-
-class HeavyBowgunAmmo(BaseModel):
-    kind: AmmoKind = Field(
-        alias="kind",
+    ammo: list[HeavyBowgunAmmo] = Field(
+        default_factory=list
     )
-    level: int = Field()
-    capaciy: int = Field()
+
+
+# ============================================================
+# Insect Glaive
+# ============================================================
 
 class InsectGlaive(WeaponBase):
-    kinsect_level: int = Field()
-
-class LightBowgun(WeaponBase):
-    ammo: list[LightBowgunAmmo] = Field()
-    special_ammo: LightBowgunSpecialAmmo = Field(
-        alias="specialAmmo",
+    kinsect_level: int = Field(
+        alias="kinsectLevel"
     )
+
+
+# ============================================================
+# Light Bowgun
+# ============================================================
 
 class LightBowgunAmmo(ApiModel):
-    kind: AmmoKind = Field(
-        alias="kind",
-    )
-    level: int = Field()
-    capaciy: int = Field()
-    rapid: bool = Field()
+    kind: AmmoKind
+    level: int
+    capacity: int
+    rapid: bool
 
-class SwitchAxe(WeaponBase):
-    pass
+
+class LightBowgun(WeaponBase):
+    ammo: list[LightBowgunAmmo] = Field(
+        default_factory=list
+    )
+
+    special_ammo: LightBowgunSpecialAmmo = Field(
+        alias="specialAmmo"
+    )
+
+
+# ============================================================
+# Switch Axe
+# ============================================================
 
 class Phial(ApiModel):
-    kind: SwitchAxePhial = Field(
-        alias="kind",
-    )
-    damage: WeaponDamage = Field()
+    kind: SwitchAxePhial
+    damage: WeaponDamage | None = None
+
+
+class SwitchAxe(WeaponBase):
+    phial: Phial

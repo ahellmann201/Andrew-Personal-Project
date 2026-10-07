@@ -1,8 +1,4 @@
-from Modeling.weapon_model import Skill
-from enums import *
-from pydantic import BaseModel, Field, ConfigDict
-
-
+from pydantic import BaseModel, ConfigDict
 
 
 class ApiModel(BaseModel):

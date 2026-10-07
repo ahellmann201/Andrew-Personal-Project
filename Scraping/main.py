@@ -3,7 +3,11 @@ import requests
 from bs4 import element
 import json
 
+from Database.db import MHWildsDatabase
 from Modeling import *
+from Modeling.entities import HuntingHorn
+from Modeling.enums import WeaponType
+
 
 URL_weapons = "https://wilds.mhdb.io/en/weapons"
 URL_armors = "https://wilds.mhdb.io/en/armor"
@@ -33,6 +37,21 @@ GREAT_SWORD_PARAMS = {
 #curl -G "https://wilds.mhdb.io/en/weapons" --data-urlencode 'q={"kind": "dual-blades"}'
 
 
+MHWildsDB =  MHWildsDatabase()
+
+def test():
+    dual_blade_response = requests.get(URL_weapons, headers=HEADERS, params=DUAL_BLADE_PARAMS)
+    hunting_horn_response = requests.get(URL_weapons, headers=HEADERS, params=HUNTING_HORN_PARAMS)
+    great_sword_response = requests.get(URL_weapons, headers=HEADERS, params=GREAT_SWORD_PARAMS)
+
+    hunting_horn_json = hunting_horn_response.json()
+
+    for horn in hunting_horn_json:
+        huntinghorn = HuntingHorn.model_validate(horn)
+        MHWildsDB.add_to_hunting_horn_dict(huntinghorn)
+
+    t_horn = MHWildsDB.get_hunting_horn_by_id(1)
+    print(t_horn)
 
 
 
@@ -42,10 +61,12 @@ def main():
     great_sword_response = requests.get(URL_weapons, headers=HEADERS, params=GREAT_SWORD_PARAMS)
 
 
-    hunting_horn_json=hunting_horn_response.json()
-    for n in range(len(hunting_horn_json)):
-        Horn = Modeling.weapon_model.Weapon(hunting_horn_json[n])
-        print(Hunting)
+    test()
+
+
+    # for n in range(len(hunting_horn_json)):
+    #     Horn = Modeling.weapon_model.Weapon(hunting_horn_json[n])
+    #     print(Hunting)
 
 
 
