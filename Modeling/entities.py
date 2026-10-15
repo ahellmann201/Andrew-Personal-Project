@@ -37,6 +37,8 @@ class HuntingHorn(WeaponBase):
             f"{name}: {value}"
             for name, value in self.model_dump().items()
         )
+    
+    
 
 
 

@@ -1,0 +1,19 @@
+alright
+
+ok
+ceya!
+
+----------TO DO-------
+
+TestHuntingHornDict should test the dictionary behaviour
+TestHuntingHornData should test the data integrity (as grabbing a known horn from the api and parsing it manually, make it explode on purpose) 
+(maybe its not needed only if you want to have a unique copy of what its inside the API and you want to make this dictionary a proper source of truth)
+
+- finish search functions for hunting horn
+- write test cases for the functions with real data
+- create a web server (uvicorn)
+- create a web interface where you can see the output of those actions
+- CRUD from web (create,retrieve,update,delete)
+    - Start by Retrieve All in a beautifull format. 
+
+
